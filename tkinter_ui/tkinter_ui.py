@@ -1,5 +1,5 @@
-import sys
 import os
+import sys
 
 sys.path.append(os.path.dirname(sys.path[0]))
 import tkinter as tk
@@ -55,10 +55,9 @@ class TkinterUI:
             "open_sort": self.default_ui.open_sort_var.get(),
             "open_filter_resolution": self.default_ui.open_filter_resolution_var.get(),
             "min_resolution": self.default_ui.min_resolution_entry.get(),
-            "response_time_weight": self.default_ui.response_time_weight_scale.get(),
+            "delay_weight": self.default_ui.delay_weight_scale.get(),
             "resolution_weight": self.default_ui.resolution_weight_scale.get(),
             "ipv_type": self.default_ui.ipv_type_combo.get(),
-            "domain_blacklist": self.default_ui.domain_blacklist_text.get(1.0, tk.END),
             "url_keywords_blacklist": self.default_ui.url_keywords_blacklist_text.get(
                 1.0, tk.END
             ),
@@ -113,8 +112,9 @@ class TkinterUI:
             self.progress_label.pack_forget()
 
     def on_run_update(self):
+        loop = asyncio.new_event_loop()
+
         def run_loop():
-            loop = asyncio.new_event_loop()
             asyncio.set_event_loop(loop)
             loop.run_until_complete(self.run_update())
 

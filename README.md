@@ -1,9 +1,9 @@
 <div align="center">
   <img src="./static/images/logo.png" alt="logo"/>
-  <h1 align="center">IPTV电视直播源更新工具</h1>
+  <h1 align="center">IPTV-API</h1>
 </div>
 
-<div align="center">自定义频道菜单，根据模板频道，自动获取并更新最新的直播源接口，测速校验后生成可用的接口文件</div>
+<div align="center">自定义频道，自动获取直播源接口，测速验效后生成可用的结果</div>
 <div align="center">默认结果包含：📺央视频道、💰央视付费频道、📡卫视频道、🏠广东频道、🌊港·澳·台频道、🎬电影频道、🎥咪咕直播、🏀体育频道、🪁动画频道、🎮游戏频道、🎵音乐频道、🏛经典剧场</div>
 
 <details>
@@ -62,14 +62,17 @@
 </details>
 <br>
 <p align="center">
-  <a href="https://github.com/Guovin/TV/releases/latest">
-    <img src="https://img.shields.io/github/v/release/guovin/tv" />
+  <a href="https://github.com/Guovin/iptv-api/releases/latest">
+    <img src="https://img.shields.io/github/v/release/guovin/iptv-api" />
   </a>
   <a href="https://www.python.org/">
-    <img src="https://img.shields.io/badge/python-%20%3E%3D%203.8-47c219" />
+    <img src="https://img.shields.io/badge/python-%20%3D%203.13-47c219" />
   </a>
-  <a href="https://github.com/Guovin/TV/releases/latest">
-    <img src="https://img.shields.io/github/downloads/guovin/tv/total" />
+  <a href="https://github.com/Guovin/iptv-api/releases/latest">
+    <img src="https://img.shields.io/github/downloads/guovin/iptv-api/total" />
+  </a>
+  <a href="https://hub.docker.com/repository/docker/guovern/iptv-api">
+    <img src="https://img.shields.io/docker/pulls/guovern/iptv-api?label=docker:iptv-api" />
   </a>
   <a href="https://hub.docker.com/repository/docker/guovern/tv-requests">
     <img src="https://img.shields.io/docker/pulls/guovern/tv-requests?label=docker:requests" />
@@ -77,46 +80,57 @@
   <a href="https://hub.docker.com/repository/docker/guovern/tv-driver">
     <img src="https://img.shields.io/docker/pulls/guovern/tv-driver?label=docker:driver" />
   </a>
-  <a href="https://github.com/Guovin/TV/fork">
-    <img src="https://img.shields.io/github/forks/guovin/tv" />
+  <a href="https://github.com/Guovin/iptv-api/fork">
+    <img src="https://img.shields.io/github/forks/guovin/iptv-api" />
   </a>
 </p>
 
 [English](./README_en.md) | 中文
 
-## ✅ 特点
+- [✅ 特点](#特点)
+- [🔗 最新结果](#最新结果)
+- [⚙️ 配置参数](./docs/config.md)
+- [🚀 快速上手](#快速上手)
+- [📖 详细教程](./docs/tutorial.md)
+- [🗓️ 更新日志](./CHANGELOG.md)
+- [❤️ 赞赏](#赞赏)
+- [👀 关注](#关注)
+- [📣 免责声明](#免责声明)
+- [⚖️ 许可证](#许可证)
+
+## 特点
 
 - ✅ 自定义模板，生成您想要的频道
 - ✅ 支持多种获取源方式：组播源、酒店源、订阅源、关键字搜索
 - ✅ 接口测速验效，响应时间、分辨率优先级，过滤无效接口
 - ✅ 偏好设置：IPv6、接口来源排序优先级与数量配置、接口白名单
 - ✅ 定时执行，北京时间每日 6:00 与 18:00 执行更新
-- ✅ 支持多种运行方式：工作流、命令行、GUI 软件、Docker(amd64/arm64)
+- ✅ 支持多种运行方式：工作流、命令行、GUI 软件、Docker(amd64/arm64/arm v7)
 - ✨ 更多功能请见[配置参数](./docs/config.md)
 
-## 🔗 最新结果
+## 最新结果
 
 - 接口源：
 
 ```bash
-https://ghproxy.net/raw.githubusercontent.com/Guovin/TV/gd/output/result.m3u
+https://ghp.ci/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u
 ```
 
 ```bash
-https://ghproxy.net/raw.githubusercontent.com/Guovin/TV/gd/output/result.txt
+https://ghp.ci/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt
 ```
 
 - 数据源：
 
 ```bash
-https://ghproxy.net/raw.githubusercontent.com/Guovin/TV/gd/source.json
+https://ghp.ci/raw.githubusercontent.com/Guovin/iptv-api/gd/source.json
 ```
 
-## ⚙️ 配置
+## 配置
 
 [配置参数](./docs/config.md)
 
-## 🚀 快速上手
+## 快速上手
 
 ### 方式一：工作流
 
@@ -129,16 +143,24 @@ pip install pipenv
 ```
 
 ```python
-pipenv install
+pipenv install --dev
 ```
 
+启动更新：
+
 ```python
-pipenv run build
+pipenv run dev
+```
+
+启动服务：
+
+```python
+pipenv run service
 ```
 
 ### 方式三：GUI 软件
 
-1. 下载[更新工具软件](https://github.com/Guovin/TV/releases)，打开软件，点击更新，即可完成更新
+1. 下载[IPTV-API 更新软件](https://github.com/Guovin/iptv-api/releases)，打开软件，点击更新，即可完成更新
 
 2. 或者在项目目录下运行以下命令，即可打开 GUI 软件：
 
@@ -146,41 +168,39 @@ pipenv run build
 pipenv run ui
 ```
 
-<img src="./docs/images/ui.png" alt="更新工具软件" title="更新工具软件" style="height:600px" />
+<img src="./docs/images/ui.png" alt="IPTV-API更新软件" title="IPTV-API更新软件" style="height:600px" />
 
 ### 方式四：Docker
 
-- driver：性能要求较高，更新速度较慢，稳定性、成功率高；修改配置 open_driver = False 可切换到 request 版本（推荐酒店源、组播源、关键字搜索使用此版本）
-- requests：轻量级，性能要求低，更新速度快，稳定性不确定（推荐订阅源使用此版本）
-
-建议都试用一次，选择自己合适的版本
+- iptv-api（完整版本）：性能要求较高，更新速度较慢，稳定性、成功率高；修改配置 open_driver = False 可切换到 Lite 版本运行模式（推荐酒店源、组播源、关键字搜索使用此版本）
+- iptv-api:lite（精简版本）：轻量级，性能要求低，更新速度快，稳定性不确定（推荐订阅源使用此版本）
 
 1. 拉取镜像：
 
-- driver：
+- iptv-api：
 
 ```bash
-docker pull guovern/tv-driver:latest
+docker pull guovern/iptv-api:latest
 ```
 
-- requests：
+- iptv-api:lite：
 
 ```bash
-docker pull guovern/tv-requests:latest
+docker pull guovern/iptv-api:lite
 ```
 
 2. 运行容器：
 
-- driver：
+- iptv-api：
 
 ```bash
-docker run -d -p 8000:8000 guovern/tv-driver
+docker run -d -p 8000:8000 guovern/iptv-api
 ```
 
-- requests：
+- iptv-api:lite：
 
 ```bash
-docker run -d -p 8000:8000 guovern/tv-requests
+docker run -d -p 8000:8000 guovern/iptv-api:lite
 ```
 
 卷挂载参数（可选）：
@@ -188,39 +208,48 @@ docker run -d -p 8000:8000 guovern/tv-requests
 
 以宿主机路径/etc/docker 为例：
 
-- driver：
+- iptv-api：
 
 ```bash
-docker run -v /etc/docker/config:/tv-driver/config -v /etc/docker/output:/tv-driver/output -d -p 8000:8000 guovern/tv-driver
+docker run -v /etc/docker/config:/iptv-api/config -v /etc/docker/output:/iptv-api/output -d -p 8000:8000 guovern/iptv-api
 ```
 
-- requests：
+- iptv-api:lite：
 
 ```bash
-docker run -v /etc/docker/config:/tv-requests/config -v /etc/docker/output:/tv-requests/output -d -p 8000:8000 guovern/tv-requests
+docker run -v /etc/docker/config:/iptv-api-lite/config -v /etc/docker/output:/iptv-api-lite/output -d -p 8000:8000 guovern/iptv-api:lite
 ```
 
 3. 更新结果：
+
 - 接口地址：ip:8000
-- 接口详情：ip:8000/result
+- M3u 接口：ip:8000/m3u
+- Txt 接口：ip:8000/txt
+- 接口内容：ip:8000/content
 - 测速日志：ip:8000/log
 
-## 🗓️ 更新日志
+## 更新日志
 
 [更新日志](./CHANGELOG.md)
 
-## ⚖️ 许可证
+## 赞赏
 
-[MIT](./LICENSE) License &copy; 2024-PRESENT [Govin](https://github.com/guovin)
-
-## 💰️ 赞赏
-
-<div>请我喝杯咖啡☕️吧~</div>
+<div>开发维护不易，请我喝杯咖啡☕️吧~</div>
 
 | 支付宝                                    | 微信                                        |
 | ----------------------------------------- | ------------------------------------------- |
 | ![支付宝扫码](./static/images/alipay.jpg) | ![微信扫码](./static/images/appreciate.jpg) |
 
-## 📣 免责声明
+## 关注
+
+微信公众号搜索 Govin，或扫码，接收更新推送、学习更多使用技巧：
+
+![微信公众号](./static/images/qrcode.jpg)
+
+## 免责声明
 
 本项目仅供学习交流用途，接口数据均来源于网络，如有侵权，请联系删除
+
+## 许可证
+
+[MIT](./LICENSE) License &copy; 2024-PRESENT [Govin](https://github.com/guovin)

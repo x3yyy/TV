@@ -1,9 +1,10 @@
-import tkinter as tk
-from utils.config import config
-from tkinter import ttk
-from tkinter import scrolledtext
-from tkinter import filedialog
 import os
+import tkinter as tk
+from tkinter import filedialog
+from tkinter import scrolledtext
+from tkinter import ttk
+
+from utils.config import config
 
 
 class DefaultUI:
@@ -141,7 +142,7 @@ class DefaultUI:
             frame_default_channel_column1, text="频道接口数量:", width=12
         )
         self.urls_limit_label.pack(side=tk.LEFT, padx=4, pady=8)
-        self.urls_limit_entry = tk.Entry(frame_default_channel_column1)
+        self.urls_limit_entry = tk.Entry(frame_default_channel_column1, width=8)
         self.urls_limit_entry.pack(side=tk.LEFT, padx=4, pady=8)
         self.urls_limit_entry.insert(0, config.urls_limit)
         self.urls_limit_entry.bind("<KeyRelease>", self.update_urls_limit)
@@ -150,7 +151,7 @@ class DefaultUI:
             frame_default_channel_column2, text="接口协议类型:", width=12
         )
         self.ipv_type_label.pack(side=tk.LEFT, padx=4, pady=8)
-        self.ipv_type_combo = ttk.Combobox(frame_default_channel_column2)
+        self.ipv_type_combo = ttk.Combobox(frame_default_channel_column2, width=5)
         self.ipv_type_combo.pack(side=tk.LEFT, padx=4, pady=8)
         self.ipv_type_combo["values"] = ("IPv4", "IPv6", "全部")
         if config.ipv_type == "ipv4":
@@ -161,22 +162,16 @@ class DefaultUI:
             self.ipv_type_combo.current(2)
         self.ipv_type_combo.bind("<<ComboboxSelected>>", self.update_ipv_type)
 
-        frame_default_sort = tk.Frame(root)
-        frame_default_sort.pack(fill=tk.X)
-        frame_default_sort_column1 = tk.Frame(frame_default_sort)
-        frame_default_sort_column1.pack(side=tk.LEFT, fill=tk.Y)
-        frame_default_sort_column2 = tk.Frame(frame_default_sort)
-        frame_default_sort_column2.pack(side=tk.LEFT, fill=tk.Y)
-        frame_default_sort_column3 = tk.Frame(frame_default_sort)
-        frame_default_sort_column3.pack(side=tk.RIGHT, fill=tk.Y)
+        frame_default_open_keep_all = tk.Frame(root)
+        frame_default_open_keep_all.pack(fill=tk.X)
 
         self.open_keep_all_label = tk.Label(
-            frame_default_sort_column1, text="保留模式:", width=12
+            frame_default_open_keep_all, text="保留模式:", width=12
         )
         self.open_keep_all_label.pack(side=tk.LEFT, padx=4, pady=8)
         self.open_keep_all_var = tk.BooleanVar(value=config.open_keep_all)
         self.open_keep_all_checkbutton = ttk.Checkbutton(
-            frame_default_sort_column1,
+            frame_default_open_keep_all,
             variable=self.open_keep_all_var,
             onvalue=True,
             offvalue=False,
@@ -185,13 +180,20 @@ class DefaultUI:
         )
         self.open_keep_all_checkbutton.pack(side=tk.LEFT, padx=4, pady=8)
 
+        frame_default_sort = tk.Frame(root)
+        frame_default_sort.pack(fill=tk.X)
+        frame_default_sort_column1 = tk.Frame(frame_default_sort)
+        frame_default_sort_column1.pack(side=tk.LEFT, fill=tk.Y)
+        frame_default_sort_column2 = tk.Frame(frame_default_sort)
+        frame_default_sort_column2.pack(side=tk.RIGHT, fill=tk.Y)
+
         self.open_sort_label = tk.Label(
-            frame_default_sort_column2, text="测速排序:", width=12
+            frame_default_sort_column1, text="测速排序:", width=12
         )
         self.open_sort_label.pack(side=tk.LEFT, padx=4, pady=8)
         self.open_sort_var = tk.BooleanVar(value=config.open_sort)
         self.open_sort_checkbutton = ttk.Checkbutton(
-            frame_default_sort_column2,
+            frame_default_sort_column1,
             variable=self.open_sort_var,
             onvalue=True,
             offvalue=False,
@@ -200,10 +202,10 @@ class DefaultUI:
         self.open_sort_checkbutton.pack(side=tk.LEFT, padx=4, pady=8)
 
         self.sort_timeout_label = tk.Label(
-            frame_default_sort_column3, text="测速超时:", width=12
+            frame_default_sort_column2, text="测速超时:", width=12
         )
         self.sort_timeout_label.pack(side=tk.LEFT, padx=4, pady=8)
-        self.sort_timeout_entry = tk.Entry(frame_default_sort_column3)
+        self.sort_timeout_entry = tk.Entry(frame_default_sort_column2, width=8)
         self.sort_timeout_entry.pack(side=tk.LEFT, padx=4, pady=8)
         self.sort_timeout_entry.insert(0, config.sort_timeout)
         self.sort_timeout_entry.bind("<KeyRelease>", self.update_sort_timeout)
@@ -241,7 +243,7 @@ class DefaultUI:
             onvalue=True,
             offvalue=False,
             command=self.update_open_m3u_result,
-            text="(支持频道图标)",
+            text="(开启频道图标)",
         )
         self.open_m3u_result_checkbutton.pack(side=tk.LEFT, padx=4, pady=8)
 
@@ -277,7 +279,9 @@ class DefaultUI:
             frame_default_resolution_params_column2, text="最小分辨率:", width=12
         )
         self.min_resolution_label.pack(side=tk.LEFT, padx=4, pady=8)
-        self.min_resolution_entry = tk.Entry(frame_default_resolution_params_column2)
+        self.min_resolution_entry = tk.Entry(
+            frame_default_resolution_params_column2, width=10
+        )
         self.min_resolution_entry.pack(side=tk.LEFT, padx=4, pady=8)
         self.min_resolution_entry.insert(0, config.min_resolution)
         self.min_resolution_entry.bind("<KeyRelease>", self.update_min_resolution)
@@ -289,20 +293,20 @@ class DefaultUI:
         frame_default_sort_params_column2 = tk.Frame(frame_default_sort_params)
         frame_default_sort_params_column2.pack(side=tk.RIGHT, fill=tk.Y)
 
-        self.response_time_weight_label = tk.Label(
+        self.delay_weight_label = tk.Label(
             frame_default_sort_params_column1, text="响应时间权重:", width=12
         )
-        self.response_time_weight_label.pack(side=tk.LEFT, padx=4, pady=8)
-        self.response_time_weight_scale = tk.Scale(
+        self.delay_weight_label.pack(side=tk.LEFT, padx=4, pady=8)
+        self.delay_weight_scale = tk.Scale(
             frame_default_sort_params_column1,
             from_=0,
             to=1,
             orient=tk.HORIZONTAL,
             resolution=0.1,
-            command=self.update_response_time_weight,
+            command=self.update_delay_weight,
         )
-        self.response_time_weight_scale.pack(side=tk.LEFT, padx=4, pady=8)
-        self.response_time_weight_scale.set(config.response_time_weight)
+        self.delay_weight_scale.pack(side=tk.LEFT, padx=4, pady=8)
+        self.delay_weight_scale.set(config.delay_weight)
 
         self.resolution_weight_label = tk.Label(
             frame_default_sort_params_column2, text="分辨率权重:", width=12
@@ -345,12 +349,12 @@ class DefaultUI:
         self.open_update_time_checkbutton.pack(side=tk.LEFT, padx=4, pady=8)
 
         self.open_url_info_label = tk.Label(
-            frame_default_open_update_info_column1, text="显示接口信息:", width=12
+            frame_default_open_update_info_column2, text="显示接口信息:", width=12
         )
         self.open_url_info_label.pack(side=tk.LEFT, padx=4, pady=8)
         self.open_url_info_var = tk.BooleanVar(value=config.open_url_info)
         self.open_url_info_checkbutton = ttk.Checkbutton(
-            frame_default_open_update_info_column1,
+            frame_default_open_update_info_column2,
             variable=self.open_url_info_var,
             onvalue=True,
             offvalue=False,
@@ -358,35 +362,22 @@ class DefaultUI:
         )
         self.open_url_info_checkbutton.pack(side=tk.LEFT, padx=4, pady=8)
 
+        frame_default_open_empty_category = tk.Frame(root)
+        frame_default_open_empty_category.pack(fill=tk.X)
+
         self.open_empty_category_label = tk.Label(
-            frame_default_open_update_info_column2, text="无结果频道分类:", width=12
+            frame_default_open_empty_category, text="显示无结果分类:", width=12
         )
         self.open_empty_category_label.pack(side=tk.LEFT, padx=4, pady=8)
         self.open_empty_category_var = tk.BooleanVar(value=config.open_empty_category)
         self.open_empty_category_checkbutton = ttk.Checkbutton(
-            frame_default_open_update_info_column2,
+            frame_default_open_empty_category,
             variable=self.open_empty_category_var,
             onvalue=True,
             offvalue=False,
             command=self.update_open_empty_category,
         )
         self.open_empty_category_checkbutton.pack(side=tk.LEFT, padx=4, pady=8)
-
-        frame_default_domain_blacklist = tk.Frame(root)
-        frame_default_domain_blacklist.pack(fill=tk.X)
-
-        self.domain_blacklist_label = tk.Label(
-            frame_default_domain_blacklist, text="域名黑名单:", width=12
-        )
-        self.domain_blacklist_label.pack(side=tk.LEFT, padx=4, pady=8)
-        self.domain_blacklist_text = scrolledtext.ScrolledText(
-            frame_default_domain_blacklist, height=2
-        )
-        self.domain_blacklist_text.pack(
-            side=tk.LEFT, padx=4, pady=8, expand=True, fill=tk.BOTH
-        )
-        self.domain_blacklist_text.insert(tk.END, ",".join(config.domain_blacklist))
-        self.domain_blacklist_text.bind("<KeyRelease>", self.update_domain_blacklist)
 
         frame_default_url_keywords_blacklist = tk.Frame(root)
         frame_default_url_keywords_blacklist.pack(fill=tk.X)
@@ -396,7 +387,7 @@ class DefaultUI:
         )
         self.url_keywords_blacklist_label.pack(side=tk.LEFT, padx=4, pady=8)
         self.url_keywords_blacklist_text = scrolledtext.ScrolledText(
-            frame_default_url_keywords_blacklist, height=2
+            frame_default_url_keywords_blacklist, height=5
         )
         self.url_keywords_blacklist_text.pack(
             side=tk.LEFT, padx=4, pady=8, expand=True, fill=tk.BOTH
@@ -468,19 +459,19 @@ class DefaultUI:
     def update_urls_limit(self, event):
         config.set("Settings", "urls_limit", self.urls_limit_entry.get())
 
-    def update_response_time_weight(self, event):
-        weight1 = self.response_time_weight_scale.get()
+    def update_delay_weight(self, event):
+        weight1 = self.delay_weight_scale.get()
         weight2 = 1 - weight1
         self.resolution_weight_scale.set(weight2)
-        config.set("Settings", "response_time_weight", str(weight1))
+        config.set("Settings", "delay_weight", str(weight1))
         config.set("Settings", "resolution_weight", str(weight2))
 
     def update_resolution_weight(self, event):
         weight1 = self.resolution_weight_scale.get()
         weight2 = 1 - weight1
-        self.response_time_weight_scale.set(weight2)
+        self.delay_weight_scale.set(weight2)
         config.set("Settings", "resolution_weight", str(weight1))
-        config.set("Settings", "response_time_weight", str(weight2))
+        config.set("Settings", "delay_weight", str(weight2))
 
     def update_open_update_time(self):
         config.set("Settings", "open_update_time", str(self.open_update_time_var.get()))
@@ -490,7 +481,7 @@ class DefaultUI:
 
     def update_open_empty_category(self):
         config.set(
-            "Settings", "update_open_empty_category", str(self.open_url_info_var.get())
+            "Settings", "open_empty_category", str(self.open_empty_category_var.get())
         )
 
     def update_ipv_type(self, event):
@@ -501,13 +492,6 @@ class DefaultUI:
             "Settings",
             "url_keywords_blacklist",
             self.url_keywords_blacklist_text.get(1.0, tk.END),
-        )
-
-    def update_domain_blacklist(self, event):
-        config.set(
-            "Settings",
-            "domain_blacklist",
-            self.domain_blacklist_text.get(1.0, tk.END),
         )
 
     def update_url_keywords_blacklist(self, event):
@@ -535,13 +519,12 @@ class DefaultUI:
             "open_filter_resolution_checkbutton",
             "min_resolution_entry",
             "urls_limit_entry",
-            "response_time_weight_scale",
+            "delay_weight_scale",
             "resolution_weight_scale",
             "open_update_time_checkbutton",
             "open_url_info_checkbutton",
             "open_empty_category_checkbutton",
             "ipv_type_combo",
-            "domain_blacklist_text",
             "url_keywords_blacklist_text",
         ]:
             getattr(self, entry).config(state=state)

@@ -1,0 +1,36 @@
+name: Bug report
+description: Report a bug
+labels: [ bug ]
+body:
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Occurrence environment
+      description: |
+        Please select what environment is the Bug triggered in:
+      options:
+        - label: Workflow
+          required: false
+        - label: GUI
+          required: false
+        - label: Docker
+          required: false
+        - label: Command line
+          required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug description
+      description: As for the specific description of the Bug, a good description will help to understand and solve it
+      placeholder: Provide any additional information, any suggested solutions, and as much context and examples as possible
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Error log
+      description: Provides a detailed error log for the Bug
+      placeholder: Please enter a detailed error log
+      render: shell
+    validations:
+      required: false
