@@ -5,14 +5,10 @@ from time import time
 from urllib.parse import quote
 
 import m3u8
-import yt_dlp
 from aiohttp import ClientSession, TCPConnector
 
-import utils.constants as constants
 from utils.config import config
-from utils.tools import is_ipv6, remove_cache_info, get_resolution_value, get_logger
-
-logger = get_logger(constants.log_path)
+from utils.tools import is_ipv6, remove_cache_info
 
 
 async def get_speed_with_download(url: str, timeout: int = config.sort_timeout) -> dict[str, float | None]:
@@ -49,59 +45,28 @@ async def get_speed_m3u8(url: str, timeout: int = config.sort_timeout) -> dict[s
     """
     info = {'speed': None, 'delay': None}
     try:
-        url = quote(url, safe=':/?$&=@')
-        m3u8_obj = m3u8.load(url, timeout=2)
-        speed_list = []
-        start_time = time()
-        for segment in m3u8_obj.segments:
-            if time() - start_time > timeout:
-                break
-            ts_url = segment.absolute_uri
-            download_info = await get_speed_with_download(ts_url, timeout)
-            speed_list.append(download_info['speed'])
-            if info['delay'] is None and download_info['delay'] is not None:
-                info['delay'] = download_info['delay']
-        info['speed'] = sum(speed_list) / len(speed_list) if speed_list else 0
+        url = quote(url, safe=':/?$&=@').partition('$')[0]
+        async with ClientSession(connector=TCPConnector(ssl=False), trust_env=True) as session:
+            async with session.head(url, timeout=2) as response:
+                if response.headers.get('Content-Length'):
+                    m3u8_obj = m3u8.load(url, timeout=2)
+                    speed_list = []
+                    start_time = time()
+                    for segment in m3u8_obj.segments:
+                        if time() - start_time > timeout:
+                            break
+                        ts_url = segment.absolute_uri
+                        download_info = await get_speed_with_download(ts_url, timeout)
+                        speed_list.append(download_info['speed'])
+                        if info['delay'] is None and download_info['delay'] is not None:
+                            info['delay'] = download_info['delay']
+                    info['speed'] = sum(speed_list) / len(speed_list) if speed_list else 0
+                else:
+                    return info
     except:
         pass
     finally:
         return info
-
-
-def get_info_yt_dlp(url, timeout=config.sort_timeout):
-    """
-    Get the url info by yt_dlp
-    """
-    ydl_opts = {
-        "socket_timeout": timeout,
-        "skip_download": True,
-        "quiet": True,
-        "no_warnings": True,
-        "format": "best",
-        "logger": logger,
-    }
-    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-        return ydl.sanitize_info(ydl.extract_info(url, download=False))
-
-
-async def get_delay_yt_dlp(url, timeout=config.sort_timeout):
-    """
-    Get the delay of the url by yt_dlp
-    """
-    try:
-        start_time = time()
-        info = await asyncio.wait_for(
-            asyncio.to_thread(get_info_yt_dlp, url, timeout), timeout=timeout
-        )
-        fps = int(round((time() - start_time) * 1000)) if len(info) else float("inf")
-        resolution = (
-            f"{info['width']}x{info['height']}"
-            if "width" in info and "height" in info
-            else None
-        )
-        return fps, resolution
-    except:
-        return float("inf"), None
 
 
 async def get_delay_requests(url, timeout=config.sort_timeout, proxy=None):
@@ -242,14 +207,22 @@ async def get_speed(url, ipv6_proxy=None, callback=None):
             callback()
 
 
-def sort_urls_by_speed_and_resolution(name, data, logger=None):
+def sort_urls(name, data, logger=None):
     """
-    Sort by speed and resolution
+    Sort the urls with info
     """
     filter_data = []
     for url, date, resolution, origin in data:
+        result = {
+            "url": remove_cache_info(url),
+            "date": date,
+            "delay": None,
+            "speed": None,
+            "resolution": resolution,
+            "origin": origin
+        }
         if origin == "important":
-            filter_data.append((url, date, resolution, origin))
+            filter_data.append(result)
             continue
         cache_key_match = re.search(r"cache:(.*)", url.partition("$")[2])
         cache_key = cache_key_match.group(1) if cache_key_match else None
@@ -259,35 +232,26 @@ def sort_urls_by_speed_and_resolution(name, data, logger=None):
                 speed, delay, cache_resolution = cache_item['speed'], cache_item['delay'], cache_item['resolution']
                 resolution = cache_resolution or resolution
                 if speed is not None:
-                    url = remove_cache_info(url)
                     try:
                         if logger:
                             logger.info(
-                                f"Name: {name}, URL: {url}, Date: {date}, Delay: {delay} ms, Speed: {speed:.2f} M/s, Resolution: {resolution}"
+                                f"Name: {name}, URL: {result["url"]}, Date: {date}, Delay: {delay} ms, Speed: {speed:.2f} M/s, Resolution: {resolution}"
                             )
                     except Exception as e:
                         print(e)
-                    filter_data.append(
-                        {
-                            "url": url,
-                            "date": date,
-                            "delay": delay,
-                            "speed": speed,
-                            "resolution": resolution,
-                            "origin": origin
-                        }
-                    )
+                    if config.open_filter_speed and speed < config.min_speed:
+                        continue
+                    result["delay"] = delay
+                    result["speed"] = speed
+                    result["resolution"] = resolution
+                    filter_data.append(result)
 
     def combined_key(item):
-        speed, delay, resolution, origin = item["speed"], item["delay"], item["resolution"], item["origin"]
+        speed, origin = item["speed"], item["origin"]
         if origin == "important":
             return float("inf")
         else:
-            return (
-                    config.speed_weight * (speed * 1024 if speed is not None else float("-inf"))
-                    - config.delay_weight * (delay if delay is not None else float("inf"))
-                    + config.resolution_weight * (get_resolution_value(resolution) if resolution else 0)
-            )
+            return speed if speed is not None else float("-inf")
 
     filter_data.sort(key=combined_key, reverse=True)
     return [
