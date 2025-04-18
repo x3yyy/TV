@@ -12,8 +12,6 @@ from utils.retry import retry_func
 from utils.tools import (
     merge_objects,
     get_pbar_remaining,
-    format_url_with_cache,
-    add_url_info,
     get_name_url
 )
 
@@ -46,8 +44,6 @@ async def get_channels_by_subscribe_urls(
             0,
         )
     hotel_name = constants.origin_map["hotel"]
-    multicast_name = constants.origin_map["multicast"]
-    subscribe_name = constants.origin_map["subscribe"]
 
     def process_subscribe_channels(subscribe_info: str | dict) -> defaultdict:
         region = ""
@@ -79,36 +75,26 @@ async def get_channels_by_subscribe_urls(
             if response:
                 response.encoding = "utf-8"
                 content = response.text
+                m3u_type = True if "#EXTM3U" in content else False
                 data = get_name_url(
                     content,
                     pattern=(
                         constants.multiline_m3u_pattern
-                        if "#EXTM3U" in content
+                        if m3u_type
                         else constants.multiline_txt_pattern
-                    )
+                    ),
+                    open_headers=config.open_headers if m3u_type else False
                 )
                 for item in data:
                     name = item["name"]
                     url = item["url"]
                     if name and url:
                         url = url.partition("$")[0]
-                        if not multicast:
-                            info = (
-                                f"{region}{hotel_name}"
-                                if hotel
-                                else (
-                                    f"{multicast_name}"
-                                    if "/rtp/" in url
-                                    else f"{subscribe_name}"
-                                )
-                            )
-                            if in_whitelist:
-                                info = "!"
-                            url = add_url_info(url, info)
-                        url = format_url_with_cache(
-                            url, cache=subscribe_url if (multicast or hotel) else None
-                        )
-                        value = url if multicast else {"url": url}
+                        value = url if multicast else {"url": url, "headers": item.get("headers", None)}
+                        if in_whitelist:
+                            value["origin"] = "whitelist"
+                        if hotel:
+                            value["extra_info"] = f"{region}{hotel_name}"
                         name = format_channel_name(name)
                         if name in channels:
                             if multicast:
@@ -135,7 +121,7 @@ async def get_channels_by_subscribe_urls(
                 )
             return channels
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         futures = [
             executor.submit(process_subscribe_channels, subscribe_url)
             for subscribe_url in urls
