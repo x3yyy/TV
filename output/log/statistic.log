@@ -1,0 +1,12 @@
+Category: 📺央视频道, Name: CCTV-2, Total: 1, Valid: 1, Valid Percent: 100.00%, Whitelist: 0, IPv4: 1, IPv6: 0, Min Delay: 8292 ms, Max Speed: 0.38 M/s, Avg Speed: 0.38 M/s, Max Resolution: 720x576
+Category: 📺央视频道, Name: CCTV-4, Total: 1, Valid: 1, Valid Percent: 100.00%, Whitelist: 0, IPv4: 1, IPv6: 0, Min Delay: 8371 ms, Max Speed: 0.37 M/s, Avg Speed: 0.37 M/s, Max Resolution: 720x576
+Category: 📺央视频道, Name: CCTV-5, Total: 2, Valid: 2, Valid Percent: 100.00%, Whitelist: 0, IPv4: 1, IPv6: 1, Min Delay: 1899 ms, Max Speed: 0.56 M/s, Avg Speed: 0.47 M/s, Max Resolution: 720x576
+Category: 📺央视频道, Name: CCTV-7, Total: 1, Valid: 1, Valid Percent: 100.00%, Whitelist: 0, IPv4: 1, IPv6: 0, Min Delay: 7925 ms, Max Speed: 0.34 M/s, Avg Speed: 0.34 M/s, Max Resolution: 720x576
+Category: 📺央视频道, Name: CCTV-11, Total: 1, Valid: 1, Valid Percent: 100.00%, Whitelist: 0, IPv4: 1, IPv6: 0, Min Delay: 9086 ms, Max Speed: 0.27 M/s, Avg Speed: 0.27 M/s, Max Resolution: 720x576
+Category: 📺央视频道, Name: CCTV-13, Total: 1, Valid: 1, Valid Percent: 100.00%, Whitelist: 0, IPv4: 0, IPv6: 1, Min Delay: 1197 ms, Max Speed: 0.27 M/s, Avg Speed: 0.27 M/s, Max Resolution: 1920x1080
+Category: 📡卫视频道, Name: 安徽卫视, Total: 1, Valid: 1, Valid Percent: 100.00%, Whitelist: 0, IPv4: 1, IPv6: 0, Min Delay: 4910 ms, Max Speed: 0.53 M/s, Avg Speed: 0.53 M/s, Max Resolution: 720x576
+Category: 📡卫视频道, Name: 东方卫视, Total: 1, Valid: 1, Valid Percent: 100.00%, Whitelist: 0, IPv4: 1, IPv6: 0, Min Delay: 6694 ms, Max Speed: 0.44 M/s, Avg Speed: 0.44 M/s, Max Resolution: 720x576
+Category: 📡卫视频道, Name: 广西卫视, Total: 1, Valid: 1, Valid Percent: 100.00%, Whitelist: 0, IPv4: 0, IPv6: 1, Min Delay: 926 ms, Max Speed: 2.44 M/s, Avg Speed: 2.44 M/s, Max Resolution: 1920x1080
+Category: 📡卫视频道, Name: 河北卫视, Total: 1, Valid: 1, Valid Percent: 100.00%, Whitelist: 0, IPv4: 0, IPv6: 1, Min Delay: 2144 ms, Max Speed: 0.60 M/s, Avg Speed: 0.60 M/s, Max Resolution: 1920x1080
+Category: 📡卫视频道, Name: 河南卫视, Total: 1, Valid: 1, Valid Percent: 100.00%, Whitelist: 0, IPv4: 1, IPv6: 0, Min Delay: 6694 ms, Max Speed: 0.56 M/s, Avg Speed: 0.56 M/s, Max Resolution: 720x576
+Category: 📡卫视频道, Name: 辽宁卫视, Total: 1, Valid: 1, Valid Percent: 100.00%, Whitelist: 0, IPv4: 1, IPv6: 0, Min Delay: 4745 ms, Max Speed: 0.59 M/s, Avg Speed: 0.59 M/s, Max Resolution: 720x576

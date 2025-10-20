@@ -1,0 +1,13 @@
+Name: CCTV-2, URL: http://124.88.238.50:82/hls/2/index.m3u8, From: subscribe, IPv_Type: ipv4, Location: 中国-新疆-巴音郭楞蒙古自治州, ISP: 联通, Date: None, Delay: 8292 ms, Speed: 0.38 M/s, Resolution: 720x576
+Name: CCTV-4, URL: http://124.88.238.50:82/hls/4/index.m3u8, From: subscribe, IPv_Type: ipv4, Location: 中国-新疆-巴音郭楞蒙古自治州, ISP: 联通, Date: None, Delay: 8371 ms, Speed: 0.37 M/s, Resolution: 720x576
+Name: CCTV-5, URL: http://124.88.238.50:82/hls/5/index.m3u8, From: subscribe, IPv_Type: ipv4, Location: 中国-新疆-巴音郭楞蒙古自治州, ISP: 联通, Date: None, Delay: 4841 ms, Speed: 0.56 M/s, Resolution: 720x576
+Name: CCTV-5, URL: https://ldcctvwbcdks.v.kcdnvip.com/ldcctvwbcd/cdrmldcctv5plus_1/index.m3u8?b=200-2100, From: subscribe, IPv_Type: ipv6, Location: 中国, ISP: 中国联通, Date: None, Delay: 1899 ms, Speed: 0.39 M/s, Resolution: None
+Name: CCTV-7, URL: http://124.88.238.50:82/hls/7/index.m3u8, From: subscribe, IPv_Type: ipv4, Location: 中国-新疆-巴音郭楞蒙古自治州, ISP: 联通, Date: None, Delay: 7925 ms, Speed: 0.34 M/s, Resolution: 720x576
+Name: CCTV-11, URL: http://124.88.238.50:82/hls/10/index.m3u8, From: subscribe, IPv_Type: ipv4, Location: 中国-新疆-巴音郭楞蒙古自治州, ISP: 联通, Date: None, Delay: 9086 ms, Speed: 0.27 M/s, Resolution: 720x576
+Name: CCTV-13, URL: http://jwplay.hebyun.com.cn/live/cctv13/1500k/tzwj_video.m3u8, From: subscribe, IPv_Type: ipv6, Location: 中国, ISP: 中国联通, Date: None, Delay: 1197 ms, Speed: 0.27 M/s, Resolution: 1920x1080
+Name: 安徽卫视, URL: http://124.88.238.50:82/hls/18/index.m3u8, From: subscribe, IPv_Type: ipv4, Location: 中国-新疆-巴音郭楞蒙古自治州, ISP: 联通, Date: None, Delay: 4910 ms, Speed: 0.53 M/s, Resolution: 720x576
+Name: 东方卫视, URL: http://124.88.238.50:82/hls/15/index.m3u8, From: subscribe, IPv_Type: ipv4, Location: 中国-新疆-巴音郭楞蒙古自治州, ISP: 联通, Date: None, Delay: 6694 ms, Speed: 0.44 M/s, Resolution: 720x576
+Name: 广西卫视, URL: https://hlscdn.liangtv.cn/live/de0f97348eb84f62aa6b7d8cf0430770/dd505d87880c478f901f38560ca4d4e6.m3u8, From: subscribe, IPv_Type: ipv6, Location: 加拿大, ISP: , Date: None, Delay: 926 ms, Speed: 2.44 M/s, Resolution: 1920x1080
+Name: 河北卫视, URL: https://jwplay.hebyun.com.cn/live/hbwstv/1500k/tzwj_video.m3u8, From: subscribe, IPv_Type: ipv6, Location: 中国, ISP: 中国联通, Date: None, Delay: 2144 ms, Speed: 0.60 M/s, Resolution: 1920x1080
+Name: 河南卫视, URL: http://124.88.238.50:82/hls/20/index.m3u8, From: subscribe, IPv_Type: ipv4, Location: 中国-新疆-巴音郭楞蒙古自治州, ISP: 联通, Date: None, Delay: 6694 ms, Speed: 0.56 M/s, Resolution: 720x576
+Name: 辽宁卫视, URL: http://124.88.238.50:82/hls/21/index.m3u8, From: subscribe, IPv_Type: ipv4, Location: 中国-新疆-巴音郭楞蒙古自治州, ISP: 联通, Date: None, Delay: 4745 ms, Speed: 0.59 M/s, Resolution: 720x576

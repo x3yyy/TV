@@ -1,3 +1,21 @@
 🕘️更新时间,#genre#
-2025-10-20 14:26:49,url
+2025-10-20 14:31:11,http://124.88.238.50:82/hls/2/index.m3u8
 
+📺央视频道,#genre#
+CCTV-2,http://124.88.238.50:82/hls/2/index.m3u8
+CCTV-4,http://124.88.238.50:82/hls/4/index.m3u8
+CCTV-5,https://ldcctvwbcdks.v.kcdnvip.com/ldcctvwbcd/cdrmldcctv5plus_1/index.m3u8?b=200-2100
+CCTV-5,http://124.88.238.50:82/hls/5/index.m3u8
+CCTV-7,http://124.88.238.50:82/hls/7/index.m3u8
+CCTV-11,http://124.88.238.50:82/hls/10/index.m3u8
+CCTV-13,http://jwplay.hebyun.com.cn/live/cctv13/1500k/tzwj_video.m3u8
+
+📡卫视频道,#genre#
+安徽卫视,http://124.88.238.50:82/hls/18/index.m3u8
+东方卫视,http://124.88.238.50:82/hls/15/index.m3u8
+广西卫视,https://hlscdn.liangtv.cn/live/de0f97348eb84f62aa6b7d8cf0430770/dd505d87880c478f901f38560ca4d4e6.m3u8
+河北卫视,https://jwplay.hebyun.com.cn/live/hbwstv/1500k/tzwj_video.m3u8
+河南卫视,http://124.88.238.50:82/hls/20/index.m3u8
+辽宁卫视,http://124.88.238.50:82/hls/21/index.m3u8
+
+☘️安徽频道,#genre#
