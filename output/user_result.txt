@@ -1,9 +1,14 @@
 🕘️更新时间,#genre#
-2025-11-13 06:30:15,http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk33
+2025-11-13 18:31:08,http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk33
 
 📺央视频道,#genre#
 CCTV-1,http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk33
 CCTV-1,http://171.116.216.113:10010/rtp/226.0.1.157:3086
+CCTV-2,http://120.76.248.139/live/bfgd/4200000061.m3u8
+CCTV-2,http://xtvantsc.xyz/Smart.php?id=cctv2
+CCTV-2,http://ygbh.site/php/bfgd.php?id=061
+CCTV-2,http://124.88.238.50:82/hls/2/index.m3u8
+CCTV-2,http://sh.lnott.top:880/dx02.m3u8
 CCTV-3,https://www.freetv.top/migu/624878271.m3u8?migutoken=35ee1318e92e1d47aa4e9ad2f98c1ca771a9ca57db36d1e18c3a4fabedd68b40ee0c4c4724347e54708380241e58d714dde21dcbd0f2eff4373c9d9f7f1508646f22febd08f5c3a8c755f6ef1e
 CCTV-3,http://171.15.18.199:8180/TV00000000000000000003@HHZT
 CCTV-4,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
@@ -14,19 +19,15 @@ CCTV-6,http://171.15.18.199:8180/TV00000000000000000006@HHZT
 CCTV-6,http://8.138.7.223/tv/1905.php?id=LIVE3YPYZ30E7V1R0
 CCTV-7,https://www.freetv.top/migu/673168121.m3u8?migutoken=44446ab398991313e6a822efdaec82f3b845a2e8f141c172aa857c477255724bbb28fc01d33f764c51106c446af1c57e8815b58822075b194f4cf55cde28fe55f54330d4586c92e75e8aa50a48
 CCTV-8,https://smart.pendy.dpdns.org/Smart.php?id=cctv8hd
-CCTV-8,https://player.cntv.cn/standard/live_HLSDRM20180524.swf?tai=cctv8&ChannelID=cctv8&videoTVChannel=cctv8&P2PChannelID=pd://cctv_p2p_cctv8
-CCTV-8,http://1.31.14.70:54321/hls/14/index.m3u8
-CCTV-8,http://112.6.239.227:8207/hls/9/index.m3u8
-CCTV-8,http://sh.lnott.top:880/dx08.m3u8
 CCTV-8,http://171.15.18.199:8180/TV00000000000000000008@HHZT
-CCTV-9,http://www.freetv.top/migu/673168140.m3u8?migutoken=b6b3dff09079aa89b4ea1988e02de40fa003df2db6f755979b0c414bdfffe3225adf1ec44edf5934481e00ada14c3b23dc6e93bb72f70ed2319f17002205dc998b6ce2dde3d00bf5701f8261ec
+CCTV-8,http://113.57.93.165:9900/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV-9,https://www.freetv.top/migu/673168140.m3u8?migutoken=749c49cdc31bb395e0349adc81010adc8707f80e51e9d3491ad67bfa71388ad768f7b52c8064338a7ef45eb7ddb192fb4937b21681c82499a0c16653ad9a9bec98ff5ce6ab183e4029bbdf269e
-CCTV-9,https://smart.pendy.dpdns.org/Smart.php?id=cctv9hd
-CCTV-9,http://player.cntv.cn/standard/live_HLSDRM20180606.swf?v=180.171.5.8.9.6.3.9&vdnSID=&vdnIP=&vdnCountryCode=&vdnProvinceCode=&vdnCityCode=&vdnISPCode=&tai=cctvjilu&ChannelID=cctvjilu&videoTVChannel=cctvjilu&P2PChannelID=pd://cctv_p2p_cctvjilu
-CCTV-9,http://t.live.cntv.cn/m3u8/cctv400.m3u8
+CCTV-9,http://www.freetv.top/migu/673168140.m3u8?migutoken=b6b3dff09079aa89b4ea1988e02de40fa003df2db6f755979b0c414bdfffe3225adf1ec44edf5934481e00ada14c3b23dc6e93bb72f70ed2319f17002205dc998b6ce2dde3d00bf5701f8261ec
 CCTV-9,http://218.19.108.185:808/hls/5/index.m3u8
-CCTV-9,http://sh.lnott.top:880/dx09.m3u8
 CCTV-9,http://112.6.239.227:8207/hls/10/index.m3u8
+CCTV-9,http://171.15.18.199:8180/TV00000000000000000009@HHZT
+CCTV-9,http://sh.lnott.top:880/dx09.m3u8
+CCTV-9,http://111.221.137.155:44330/tsfile/live/0009_1.m3u8?key=txiptv
 CCTV-10,https://www.freetv.top/migu/624878405.m3u8?migutoken=e7e8abe9ae322869a93e8450014e08c5949217331c53007abb9f6eee64b06cc42f81828befee8b129005bcdebf805a1bbd19f0949e8329cf7ff4ab9379e930cfb8185ddf66c83b972ea6481e86
 CCTV-11,http://xtvantsc.xyz/Smart.php?id=cctv11
 CCTV-12,http://www.freetv.top/migu/673168185.m3u8?migutoken=21a3954b28c73a4240272889ec94c3318c23068f666c79e61379cb154a890e4e7e3c998a578b29a381972f128751898531cb713221ff95385afec91149321ad772e31489fa01e553c8223e976a
@@ -34,13 +35,11 @@ CCTV-12,https://www.freetv.top/migu/673168185.m3u8?migutoken=37acadb43b1d7932b0a
 CCTV-12,http://112.6.239.227:8207/hls/13/index.m3u8
 CCTV-13,https://event.pull.hebtv.com/jishi/cp1.m3u8
 CCTV-13,http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
-CCTV-14,http://www.freetv.top/migu/624878440.m3u8?migutoken=303d044cf07163e1e2e8e4ecc8b6696ed836301cf573b626d3c00ec50cd362cc5e6a93afc2fd102cb883155554597d14eaa697edc9b0a30e56fc0115f81d8fbb8b87129e5bedad7d2173178f03
 CCTV-14,https://www.freetv.top/migu/624878440.m3u8?migutoken=239edad94ac0bbff14f123c7f8996ed7639110bd6cf64ec8ba8cf85842224956d452ec8b683385cb27f8a7685224a03e3aa4d914b8fe33249da9df699351b105c795452d03f2be0a1f1e39adb0
+CCTV-14,http://www.freetv.top/migu/624878440.m3u8?migutoken=303d044cf07163e1e2e8e4ecc8b6696ed836301cf573b626d3c00ec50cd362cc5e6a93afc2fd102cb883155554597d14eaa697edc9b0a30e56fc0115f81d8fbb8b87129e5bedad7d2173178f03
 CCTV-14,http://171.15.18.199:8180/TV00000000000000000014@HHZT
 CCTV-15,https://www.freetv.top/migu/673168223.m3u8?migutoken=4e8d5766579c6bef231494cabd07e5b49d965804790214280c9791e4c331fd90311cb62ea43d3a1899229bfa57be4afe5a567b32a6b78153fc9a9801e28a39435e078b48c211e71d6083519be4
-CCTV-16,http://drive.mxmy.net:8888/udp/239.3.1.184:8001
 CCTV-16,http://zqh2333.top:2222/rtp/239.93.55.54:5140
-CCTV-16,http://dms.yryyj.site:8188/udp/239.76.254.200:9000
 CCTV-17,http://zqh2333.top:2222/rtp/239.93.24.92:5140
 
 📡卫视频道,#genre#
@@ -48,18 +47,14 @@ CCTV-17,http://zqh2333.top:2222/rtp/239.93.24.92:5140
 广东卫视,http://satellitepull.cnr.cn/live/wxgdws/playlist.m3u8
 香港卫视,http://player.cntv.cn/standard/live_HLSDRM20180606.swf?ChannelID=xianggangweishi&P2PChannelID=pd://cctv_p2p_hdxianggangweishi
 香港卫视,rtmp://zhibo.hkstv.tv/livestream/mutfysrq
+浙江卫视,http://sh.lnott.top:880/dx32.m3u8
 浙江卫视,http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8#mitv://generationnexxxt.com:19806/7bf4b3a65eaf421ab6d71bd8dcc4547a
 湖南卫视,http://satellitepull.cnr.cn/live/wx32hunws/playlist.m3u8
 北京卫视,http://satellitepull.cnr.cn/live/wxbtv/playlist.m3u8
 湖北卫视,http://satellitepull.cnr.cn/live/wx32hubws/playlist.m3u8
 黑龙江卫视,http://satellitepull.cnr.cn/live/wx32hljws/playlist.m3u8
 重庆卫视,http://satellitepull.cnr.cn/live/wxcqws/playlist.m3u8
-东方卫视,https://epg.pw/stream/6aec3ea636542c53729b5c9dd290864ab04d4a69d2b9cb7864a9898779915898.m3u8
-东方卫视,https://txmov2.a.kwimgs.com/bs3/video-hls/5219953535631090825_hlsb.m3u8
-东方卫视,http://xtvantsc.xyz/Smart.php?id=dongfangweishi_twn
-东方卫视,http://112.123.243.37:50085/tsfile/live/0124_1.m3u8?key=txiptv&playlive=0&authid=0
 东方卫视,http://1.31.14.70:54321/hls/27/index.m3u8
-东方卫视,http://124.88.238.50:82/hls/15/index.m3u8
 东南卫视,http://satellitepull.cnr.cn/live/wx32fjws/playlist.m3u8
 甘肃卫视,http://satellitepull.cnr.cn/live/wxgsws/playlist.m3u8
 广西卫视,https://hlscdn.liangtv.cn/live/de0f97348eb84f62aa6b7d8cf0430770/dd505d87880c478f901f38560ca4d4e6.m3u8
@@ -72,11 +67,11 @@ CCTV-17,http://zqh2333.top:2222/rtp/239.93.24.92:5140
 吉林卫视,http://satellitepull.cnr.cn/live/wxjlws/playlist.m3u8
 江苏卫视,https://www.freetv.top/migu/623899368.m3u8?migutoken=89adf8885d4f1f9dee34a4e8d60f187e5b071ac9b79001260a0b66da9027070e0b861510da93cb5190da002ca87645e63e57bada2c65f959e8ef81f693c239f194d683ba2083252bbb0caeab96
 江西卫视,http://satellitepull.cnr.cn/live/wx32jiangxws/playlist.m3u8
+辽宁卫视,http://ygbh.site/php/bfgd.php?id=058
 辽宁卫视,http://124.88.238.50:82/hls/21/index.m3u8
+辽宁卫视,http://120.76.248.139/live/bfgd/4200000141.m3u8
+辽宁卫视,http://59.39.89.130:60901/tsfile/live/0125_13.m3u8?key=txiptv&playlive=1&authid=0
 辽宁卫视,http://sh.lnott.top:880/dx19.m3u8
-辽宁卫视,http://61.184.46.85:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
-辽宁卫视,http://112.27.235.94:8000/hls/47/index.m3u8
-辽宁卫视,http://223.241.247.214:9901/tsfile/live/0121_1.m3u8
 内蒙古卫视,http://satellitepull.cnr.cn/live/wx32nmgws/playlist.m3u8
 宁夏卫视,http://satellitepull.cnr.cn/live/wxnxws/playlist.m3u8
 青海卫视,http://satellitepull.cnr.cn/live/wx32qhws/playlist.m3u8
@@ -85,7 +80,7 @@ CCTV-17,http://zqh2333.top:2222/rtp/239.93.24.92:5140
 陕西卫视,http://satellitepull.cnr.cn/live/wxsxxws/playlist.m3u8
 四川卫视,http://satellitepull.cnr.cn/live/wxscws/playlist.m3u8
 深圳卫视,http://satellitepull.cnr.cn/live/wxszws/playlist.m3u8
-深圳卫视,http://112.6.239.227:8207/hls/21/index.m3u8
+深圳卫视,http://sh.lnott.top:880/dx61.m3u8
 三沙卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=ssws
 三沙卫视,rtsp://118.212.169.207:554/PLTV/88888888/224/3221227300/10000100000000060000000001945824_0.smil
 三沙卫视,rtsp://115.153.245.70/PLTV/88888888/224/3221226984/85722645.smil
