@@ -1,28 +1,11 @@
 🕘️更新时间,#genre#
-2025-11-24 06:23:47,http://bxtv.3a.ink/migu.php?id=cctv1
+2025-11-24 18:30:14,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 
 📺央视频道,#genre#
-CCTV-1,http://bxtv.3a.ink/migu.php?id=cctv1
-CCTV-2,http://bxtv.3a.ink/migu.php?id=cctv2
-CCTV-3,http://bxtv.3a.ink/migu.php?id=cctv3
-CCTV-4,http://bxtv.3a.ink/migu.php?id=cctv4
 CCTV-4,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
-CCTV-5,http://bxtv.3a.ink/migu.php?id=cctv5
-CCTV-5+,http://bxtv.3a.ink/migu.php?id=cctv5p
-CCTV-6,http://bxtv.3a.ink/migu.php?id=cctv6
-CCTV-7,http://bxtv.3a.ink/migu.php?id=cctv7
-CCTV-8,http://bxtv.3a.ink/migu.php?id=cctv8
-CCTV-9,http://bxtv.3a.ink/migu.php?id=cctv9
-CCTV-10,http://bxtv.3a.ink/migu.php?id=cctv10
 CCTV-11,http://xtvantsc.xyz/Smart.php?id=cctv11
-CCTV-11,http://bxtv.3a.ink/migu.php?id=cctv11
-CCTV-12,http://bxtv.3a.ink/migu.php?id=cctv12
-CCTV-13,http://bxtv.3a.ink/migu.php?id=cctv13
 CCTV-13,http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
-CCTV-14,http://bxtv.3a.ink/migu.php?id=cctv14
-CCTV-15,http://bxtv.3a.ink/migu.php?id=cctv15
 CCTV-16,http://zqh2333.top:2222/rtp/239.93.55.54:5140
-CCTV-17,http://bxtv.3a.ink/migu.php?id=cctv17
 CCTV-17,http://zqh2333.top:2222/rtp/239.93.24.92:5140
 
 📡卫视频道,#genre#
@@ -36,8 +19,6 @@ CCTV-17,http://zqh2333.top:2222/rtp/239.93.24.92:5140
 湖北卫视,http://satellitepull.cnr.cn/live/wx32hubws/playlist.m3u8
 黑龙江卫视,http://satellitepull.cnr.cn/live/wx32hljws/playlist.m3u8
 重庆卫视,http://satellitepull.cnr.cn/live/wxcqws/playlist.m3u8
-东方卫视,http://112.123.243.37:50085/tsfile/live/0124_1.m3u8?key=txiptv&playlive=0&authid=0
-东方卫视,http://183.215.134.239:19901/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
 东南卫视,http://satellitepull.cnr.cn/live/wx32fjws/playlist.m3u8
 甘肃卫视,http://satellitepull.cnr.cn/live/wxgsws/playlist.m3u8
 贵州卫视,http://satellitepull.cnr.cn/live/wx32gzws/playlist.m3u8
@@ -46,13 +27,14 @@ CCTV-17,http://zqh2333.top:2222/rtp/239.93.24.92:5140
 河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
 河南卫视,http://satellitepull.cnr.cn/live/wxhnws/playlist.m3u8
 吉林卫视,http://satellitepull.cnr.cn/live/wxjlws/playlist.m3u8
-江苏卫视,http://221.2.148.205:8154/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0
+江苏卫视,http://xtvantsc.xyz/Smart.php?id=jiangsu_twn
+江苏卫视,http://222.169.85.8:9901/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0
+江苏卫视,http://1.31.14.70:54321/hls/3/index.m3u8
+江苏卫视,http://sh.lnott.top:880/dx33.m3u8
+江苏卫视,http://61.184.46.85:9901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
 江西卫视,http://satellitepull.cnr.cn/live/wx32jiangxws/playlist.m3u8
 辽宁卫视,http://sh.lnott.top:880/dx19.m3u8
 辽宁卫视,http://ygbh.site/php/bfgd.php?id=058
-辽宁卫视,http://120.76.248.139/live/bfgd/4200000141.m3u8
-辽宁卫视,http://59.39.89.130:60901/tsfile/live/0125_13.m3u8?key=txiptv&playlive=1&authid=0
-辽宁卫视,http://116.128.242.83:9901/tsfile/live/1004_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
 内蒙古卫视,http://satellitepull.cnr.cn/live/wx32nmgws/playlist.m3u8
 宁夏卫视,http://satellitepull.cnr.cn/live/wxnxws/playlist.m3u8
 青海卫视,http://satellitepull.cnr.cn/live/wx32qhws/playlist.m3u8
@@ -62,10 +44,10 @@ CCTV-17,http://zqh2333.top:2222/rtp/239.93.24.92:5140
 四川卫视,http://satellitepull.cnr.cn/live/wxscws/playlist.m3u8
 深圳卫视,http://satellitepull.cnr.cn/live/wxszws/playlist.m3u8
 三沙卫视,http://113.106.171.234:8899/rtp/239.20.0.52:3192
-三沙卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=ssws
 三沙卫视,rtsp://118.212.169.207:554/PLTV/88888888/224/3221227300/10000100000000060000000001945824_0.smil
 三沙卫视,rtsp://115.153.245.70/PLTV/88888888/224/3221226984/85722645.smil
 三沙卫视,rtsp://115.153.254.81/PLTV/88888888/224/3221226984/85722645.smil
+三沙卫视,rtsp://115.153.240.228:554/PLTV/88888888/224/3221226984/85722645.smil
 天津卫视,http://113.106.171.234:8899/rtp/239.20.0.89:3044
 西藏卫视,http://satellitepull.cnr.cn/live/wxxzws/playlist.m3u8
 新疆卫视,http://satellitepull.cnr.cn/live/wxxjws/playlist.m3u8
