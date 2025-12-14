@@ -1,30 +1,38 @@
 🕘️更新时间,#genre#
-2025-12-14 18:27:23,http://38.75.136.137:98/gslb/dsdqpub/cctv1hd.m3u8?auth=testpub
+2025-12-15 06:30:17,http://38.75.136.137:98/gslb/dsdqpub/cctv1hd.m3u8?auth=testpub
 
 📺央视频道,#genre#
 CCTV-1,http://38.75.136.137:98/gslb/dsdqpub/cctv1hd.m3u8?auth=testpub
 CCTV-3,http://171.15.18.199:8180/TV00000000000000000003@HHZT
-CCTV-3,http://182.150.23.74:808/hls/3/index.m3u8
 CCTV-4,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 CCTV-4,http://183.220.107.138:4022/rtp/239.11.0.109:5140
 CCTV-5,http://171.15.18.199:8180/TV00000000000000000005@HHZT
 CCTV-7,http://38.75.136.137:98/gslb/dsdqpub/cctv7hd.m3u8?auth=testpub
 CCTV-8,http://38.75.136.137:98/gslb/dsdqpub/cctv8hd.m3u8?auth=testpub
 CCTV-9,http://38.75.136.137:98/gslb/dsdqpub/cctv9hd.m3u8?auth=testpub
-CCTV-10,http://1.24.39.180:9003/hls/10/index.m3u8
 CCTV-10,http://120.76.248.139/live/bfgd/4200000129.m3u8
 CCTV-10,http://171.15.18.199:8180/TV00000000000000000010@HHZT
-CCTV-10,http://222.169.85.8:9901/tsfile/live/0010_1.m3u8
-CCTV-10,http://sh.lnott.top:880/dx10.m3u8
 CCTV-11,http://xtvantsc.xyz/Smart.php?id=cctv11
 CCTV-11,http://120.76.248.139/live/bfgd/4200000130.m3u8
 CCTV-11,http://171.15.18.199:8180/TV00000000000000000011@HHZT
-CCTV-11,http://1.24.39.180:9003/hls/11/index.m3u8
 CCTV-12,http://183.220.107.138:4022/rtp/239.11.0.113:5140
 CCTV-12,http://171.15.18.199:8180/TV00000000000000000012@HHZT
-CCTV-12,http://1.24.39.180:9003/hls/12/index.m3u8
-CCTV-12,http://1.31.14.70:54321/hls/12/index.m3u8
+CCTV-14,http://1.24.39.180:9003/hls/14/index.m3u8
+CCTV-14,http://1.31.14.70:54321/hls/22/index.m3u8
+CCTV-14,http://112.123.243.37:50085/tsfile/live/0015_1.m3u8
+CCTV-14,http://sh.lnott.top:880/dx14.m3u8
+CCTV-14,http://120.76.248.139/live/bfgd/4200000132.m3u8
+CCTV-15,http://ygbh.site/php/bfgd.php?id=133
+CCTV-15,http://183.220.107.138:4022/rtp/239.11.0.26:5140
+CCTV-15,http://112.132.10.54:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=0&authid=0
+CCTV-15,http://112.27.235.94:8000/hls/16/index.m3u8
+CCTV-15,http://112.99.193.34:9901/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV-16,http://drive.mxmy.net:8888/udp/239.3.1.184:8001
+CCTV-17,http://player.cntv.cn/standard/live_HLSDRM20180524.swf?v=180.171.5.8.9.6.3.9&ChannelID=cctv17&videoTVChannel=cctv17&P2PChannelID=pd://cctv_p2p_cctv17&tai=cctv1&VideoName=cctv1&channelID=cctv17
+CCTV-17,http://1.24.39.180:9003/hls/61/index.m3u8
+CCTV-17,http://sh.lnott.top:880/dx17.m3u8
+CCTV-17,http://120.76.248.139/live/bfgd/4200000204.m3u8
+CCTV-17,http://ygbh.site/php/bfgd.php?id=204
 
 📡卫视频道,#genre#
 安徽卫视,http://satellitepull.cnr.cn/live/wxahws/playlist.m3u8
@@ -47,11 +55,7 @@ CCTV-16,http://drive.mxmy.net:8888/udp/239.3.1.184:8001
 河南卫视,http://satellitepull.cnr.cn/live/wxhnws/playlist.m3u8
 吉林卫视,http://satellitepull.cnr.cn/live/wxjlws/playlist.m3u8
 江西卫视,http://satellitepull.cnr.cn/live/wx32jiangxws/playlist.m3u8
-辽宁卫视,http://112.123.243.37:50085/tsfile/live/0126_1.m3u8
-辽宁卫视,http://120.76.248.139/live/bfgd/4200000141.m3u8
-辽宁卫视,http://ygbh.site/php/bfgd.php?id=058
-辽宁卫视,http://61.184.46.85:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
-辽宁卫视,http://221.2.148.205:8154/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
+辽宁卫视,http://39.164.160.249:9901/tsfile/live/0121_1.m3u8
 内蒙古卫视,http://satellitepull.cnr.cn/live/wx32nmgws/playlist.m3u8
 宁夏卫视,http://satellitepull.cnr.cn/live/wxnxws/playlist.m3u8
 青海卫视,http://satellitepull.cnr.cn/live/wx32qhws/playlist.m3u8
@@ -61,11 +65,15 @@ CCTV-16,http://drive.mxmy.net:8888/udp/239.3.1.184:8001
 四川卫视,http://satellitepull.cnr.cn/live/wxscws/playlist.m3u8
 深圳卫视,http://satellitepull.cnr.cn/live/wxszws/playlist.m3u8
 三沙卫视,https://srs.ssws.tv/video/sstv-10/index.m3u8
-三沙卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=ssws
 三沙卫视,http://124.64.223.204:8686/rtp/239.3.1.155:4120
+三沙卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=ssws
 三沙卫视,rtsp://118.212.169.207:554/PLTV/88888888/224/3221227300/10000100000000060000000001945824_0.smil
 三沙卫视,rtsp://115.153.245.70/PLTV/88888888/224/3221226984/85722645.smil
+天津卫视,http://ygbh.site/php/bfgd.php?id=084
 天津卫视,http://183.220.107.138:4022/rtp/239.11.0.123:5140
+天津卫视,http://sh.lnott.top:880/dx30.m3u8
+天津卫视,http://222.169.85.8:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
+天津卫视,http://112.27.235.94:8000/hls/42/index.m3u8
 西藏卫视,http://satellitepull.cnr.cn/live/wxxzws/playlist.m3u8
 新疆卫视,http://satellitepull.cnr.cn/live/wxxjws/playlist.m3u8
 云南卫视,http://satellitepull.cnr.cn/live/wxynws/playlist.m3u8
