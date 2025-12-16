@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-12-16 18:33:13,http://171.15.18.199:8180/TV00000000000000000003@HHZT
+2025-12-17 06:28:27,http://171.15.18.199:8180/TV00000000000000000003@HHZT
 
 📺央视频道,#genre#
 CCTV-3,http://171.15.18.199:8180/TV00000000000000000003@HHZT
@@ -13,9 +13,12 @@ CCTV-10,http://171.15.18.199:8180/TV00000000000000000010@HHZT
 CCTV-11,http://xtvantsc.xyz/Smart.php?id=cctv11
 CCTV-11,http://171.15.18.199:8180/TV00000000000000000011@HHZT
 CCTV-12,http://171.15.18.199:8180/TV00000000000000000012@HHZT
-CCTV-12,http://183.220.107.138:4022/rtp/239.11.0.113:5140
 CCTV-14,http://171.15.18.199:8180/TV00000000000000000014@HHZT
+CCTV-15,http://ygbh.site/php/bfgd.php?id=133
+CCTV-15,http://1.24.39.180:9003/hls/15/index.m3u8
 CCTV-15,http://183.220.107.138:4022/rtp/239.11.0.26:5140
+CCTV-15,http://sh.lnott.top:880/dx15.m3u8
+CCTV-15,http://112.27.235.94:8000/hls/16/index.m3u8
 CCTV-16,http://drive.mxmy.net:8888/udp/239.3.1.184:8001
 
 📡卫视频道,#genre#
@@ -40,10 +43,10 @@ CCTV-16,http://drive.mxmy.net:8888/udp/239.3.1.184:8001
 吉林卫视,http://satellitepull.cnr.cn/live/wxjlws/playlist.m3u8
 江西卫视,http://satellitepull.cnr.cn/live/wx32jiangxws/playlist.m3u8
 辽宁卫视,http://ygbh.site/php/bfgd.php?id=058
-辽宁卫视,http://61.184.46.85:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
 辽宁卫视,http://120.76.248.139/live/bfgd/4200000141.m3u8
-辽宁卫视,http://61.156.228.12:8154/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
-辽宁卫视,http://112.123.243.37:50085/tsfile/live/0126_1.m3u8
+辽宁卫视,http://59.39.89.130:60901/tsfile/live/0125_13.m3u8?key=txiptv&playlive=1&authid=0
+辽宁卫视,http://112.27.235.94:8000/hls/47/index.m3u8
+辽宁卫视,http://sh.lnott.top:880/dx19.m3u8
 内蒙古卫视,http://satellitepull.cnr.cn/live/wx32nmgws/playlist.m3u8
 宁夏卫视,http://satellitepull.cnr.cn/live/wxnxws/playlist.m3u8
 青海卫视,http://satellitepull.cnr.cn/live/wx32qhws/playlist.m3u8
@@ -53,8 +56,8 @@ CCTV-16,http://drive.mxmy.net:8888/udp/239.3.1.184:8001
 四川卫视,http://satellitepull.cnr.cn/live/wxscws/playlist.m3u8
 深圳卫视,http://satellitepull.cnr.cn/live/wxszws/playlist.m3u8
 三沙卫视,https://srs.ssws.tv/video/sstv-10/index.m3u8
-三沙卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=ssws
 三沙卫视,http://124.64.223.204:8686/rtp/239.3.1.155:4120
+三沙卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=ssws
 三沙卫视,rtsp://118.212.169.207:554/PLTV/88888888/224/3221227300/10000100000000060000000001945824_0.smil
 三沙卫视,rtsp://115.153.245.70/PLTV/88888888/224/3221226984/85722645.smil
 天津卫视,http://183.220.107.138:4022/rtp/239.11.0.123:5140
