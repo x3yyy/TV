@@ -1,11 +1,15 @@
 🕘️更新时间,#genre#
-2025-12-18 18:30:51,http://171.15.18.199:8180/TV00000000000000000003@HHZT
+2025-12-19 06:31:29,http://171.15.18.199:8180/TV00000000000000000003@HHZT
 
 📺央视频道,#genre#
 CCTV-3,http://171.15.18.199:8180/TV00000000000000000003@HHZT
 CCTV-4,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 CCTV-5,http://171.15.18.199:8180/TV00000000000000000005@HHZT
 CCTV-7,http://38.75.136.137:98/gslb/dsdqpub/cctv7hd.m3u8?auth=testpub
+CCTV-7,http://ygbh.site/php/bfgd.php?id=127
+CCTV-7,http://183.220.107.138:4022/rtp/239.11.0.110:5140
+CCTV-7,http://sh.lnott.top:880/dx07.m3u8
+CCTV-7,http://1.31.14.70:54321/hls/9/index.m3u8
 CCTV-8,http://38.75.136.137:98/gslb/dsdqpub/cctv8hd.m3u8?auth=testpub
 CCTV-9,http://38.75.136.137:98/gslb/dsdqpub/cctv9hd.m3u8?auth=testpub
 CCTV-10,http://171.15.18.199:8180/TV00000000000000000010@HHZT
@@ -13,7 +17,6 @@ CCTV-11,http://xtvantsc.xyz/Smart.php?id=cctv11
 CCTV-11,http://171.15.18.199:8180/TV00000000000000000011@HHZT
 CCTV-12,http://171.15.18.199:8180/TV00000000000000000012@HHZT
 CCTV-14,http://171.15.18.199:8180/TV00000000000000000014@HHZT
-CCTV-15,http://183.220.107.138:4022/rtp/239.11.0.26:5140
 CCTV-16,http://drive.mxmy.net:8888/udp/239.3.1.184:8001
 
 📡卫视频道,#genre#
@@ -32,21 +35,18 @@ CCTV-16,http://drive.mxmy.net:8888/udp/239.3.1.184:8001
 甘肃卫视,http://satellitepull.cnr.cn/live/wxgsws/playlist.m3u8
 贵州卫视,http://satellitepull.cnr.cn/live/wx32gzws/playlist.m3u8
 海南卫视,http://satellitepull.cnr.cn/live/wxhainlyws/playlist.m3u8
-河北卫视,http://ygbh.site/php/bfgd.php?id=108
 河北卫视,http://satellitepull.cnr.cn/live/wxhebws/playlist.m3u8
-河北卫视,http://112.123.243.37:50085/tsfile/live/0018_1.m3u8
-河北卫视,http://1.31.14.70:54321/hls/18/index.m3u8
 河北卫视,http://php.fjl626.cn/hebei.php?id=hbws
 河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
 河南卫视,http://satellitepull.cnr.cn/live/wxhnws/playlist.m3u8
 吉林卫视,http://satellitepull.cnr.cn/live/wxjlws/playlist.m3u8
 江苏卫视,http://183.220.107.138:4022/rtp/239.11.0.76:5140
 江西卫视,http://satellitepull.cnr.cn/live/wx32jiangxws/playlist.m3u8
-辽宁卫视,http://ygbh.site/php/bfgd.php?id=058
-辽宁卫视,http://120.76.248.139/live/bfgd/4200000141.m3u8
-辽宁卫视,http://223.241.247.214:9901/tsfile/live/0121_1.m3u8
-辽宁卫视,http://sh.lnott.top:880/dx19.m3u8
+辽宁卫视,http://112.123.243.37:50085/tsfile/live/0126_1.m3u8
+辽宁卫视,http://112.27.235.94:8000/hls/47/index.m3u8
 辽宁卫视,http://61.184.46.85:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
+辽宁卫视,http://59.39.89.130:60901/tsfile/live/0125_13.m3u8?key=txiptv&playlive=1&authid=0
+辽宁卫视,http://sh.lnott.top:880/dx19.m3u8
 内蒙古卫视,http://satellitepull.cnr.cn/live/wx32nmgws/playlist.m3u8
 宁夏卫视,http://satellitepull.cnr.cn/live/wxnxws/playlist.m3u8
 青海卫视,http://satellitepull.cnr.cn/live/wx32qhws/playlist.m3u8
@@ -60,16 +60,20 @@ CCTV-16,http://drive.mxmy.net:8888/udp/239.3.1.184:8001
 三沙卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=ssws
 三沙卫视,rtsp://118.212.169.207:554/PLTV/88888888/224/3221227300/10000100000000060000000001945824_0.smil
 三沙卫视,rtsp://115.153.245.70/PLTV/88888888/224/3221226984/85722645.smil
+天津卫视,http://ygbh.site/php/bfgd.php?id=084
 天津卫视,http://183.220.107.138:4022/rtp/239.11.0.123:5140
+天津卫视,http://112.27.235.94:8000/hls/42/index.m3u8
+天津卫视,http://sh.lnott.top:880/dx30.m3u8
+天津卫视,http://60.16.0.216:5757/hls/34/index.m3u8
 西藏卫视,http://satellitepull.cnr.cn/live/wxxzws/playlist.m3u8
 新疆卫视,http://satellitepull.cnr.cn/live/wxxjws/playlist.m3u8
 云南卫视,http://satellitepull.cnr.cn/live/wxynws/playlist.m3u8
 
 ☘️安徽频道,#genre#
 安徽国际,http://yp.qqqtv.top/1/api.php?id=%E5%AE%89%E5%BE%BD%E5%9B%BD%E9%99%85&auth=666858
-安徽影视,http://112.132.10.54:9901/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
 安徽影视,http://112.27.235.94:8000/hls/24/index.m3u8
+安徽影视,http://112.132.10.54:9901/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
 安徽影视,http://yp.qqqtv.top/1/api.php?id=%E5%AE%89%E5%BE%BD%E5%BD%B1%E8%A7%86&auth=666858
 安徽综艺体育,http://112.27.235.94:8000/hls/25/index.m3u8
-安徽导视,http://dspdhls.appcoo.com:8888/live/dspd/index.m3u8
 安徽导视,http://yp.qqqtv.top/1/api.php?id=%E5%AE%89%E5%BE%BD%E5%AF%BC%E8%A7%86&auth=666858
+安徽导视,http://dspdhls.appcoo.com:8888/live/dspd/index.m3u8
