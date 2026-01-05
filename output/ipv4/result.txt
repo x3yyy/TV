@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2026-01-05 18:30:16,http://38.75.136.137:98/gslb/dsdqpub/cctv1hd.m3u8?auth=testpub
+2026-01-06 06:25:11,http://38.75.136.137:98/gslb/dsdqpub/cctv1hd.m3u8?auth=testpub
 
 📺央视频道,#genre#
 CCTV-1,http://38.75.136.137:98/gslb/dsdqpub/cctv1hd.m3u8?auth=testpub
@@ -9,7 +9,6 @@ CCTV-4,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 CCTV-5,http://120.76.248.139/live/bfgd/4200000064.m3u8
 CCTV-5+,http://120.76.248.139/live/bfgd/4200000246.m3u8
 CCTV-6,http://1.24.39.180:9003/hls/6/index.m3u8
-CCTV-6,http://1.31.14.70:54321/hls/8/index.m3u8
 CCTV-6,http://171.15.18.199:8180/TV00000000000000000006@HHZT
 CCTV-7,http://38.75.136.137:98/gslb/dsdqpub/cctv7hd.m3u8?auth=testpub
 CCTV-7,http://183.220.107.138:4022/rtp/239.11.0.110:5140
@@ -17,11 +16,9 @@ CCTV-7,http://120.76.248.139/live/bfgd/4200000127.m3u8
 CCTV-8,http://120.76.248.139/live/bfgd/4200000066.m3u8
 CCTV-9,http://38.75.136.137:98/gslb/dsdqpub/cctv9hd.m3u8?auth=testpub
 CCTV-9,http://183.220.107.138:4022/rtp/239.11.0.111:5140
-CCTV-9,https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=5fffe4d5ef1d5d3c94e4ee61cd25fe24
 CCTV-10,http://120.76.248.139/live/bfgd/4200000129.m3u8
 CCTV-11,http://120.76.248.139/live/bfgd/4200000130.m3u8
 CCTV-14,http://tvlist.top/jd/index.php?id=cctv14&qt=183.224.122.114:8014
-CCTV-14,http://183.220.107.138:4022/rtp/239.11.0.114:5140
 CCTV-16,http://drive.mxmy.net:8888/udp/239.3.1.184:8001
 CCTV-17,http://120.76.248.139/live/bfgd/4200000204.m3u8
 
@@ -32,14 +29,12 @@ CCTV-17,http://120.76.248.139/live/bfgd/4200000204.m3u8
 香港卫视,rtmp://zhibo.hkstv.tv/livestream/mutfysrq
 浙江卫视,http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8#mitv://generationnexxxt.com:19806/7bf4b3a65eaf421ab6d71bd8dcc4547a
 湖南卫视,http://satellitepull.cnr.cn/live/wx32hunws/playlist.m3u8
-湖南卫视,http://218.17.33.178:53290/tsfile/live/0128_1.m3u8?key=txiptv
 北京卫视,http://satellitepull.cnr.cn/live/wxbtv/playlist.m3u8
-湖北卫视,http://satellitepull.cnr.cn/live/wx32hubws/playlist.m3u8
 湖北卫视,http://38.75.136.137:98/gslb/dsdqpub/hbwshd.m3u8?auth=testpub
+湖北卫视,http://satellitepull.cnr.cn/live/wx32hubws/playlist.m3u8
 黑龙江卫视,http://satellitepull.cnr.cn/live/wx32hljws/playlist.m3u8
 重庆卫视,http://satellitepull.cnr.cn/live/wxcqws/playlist.m3u8
 东方卫视,http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
-东方卫视,http://183.220.107.138:4022/rtp/239.11.0.68:5140
 东南卫视,http://satellitepull.cnr.cn/live/wx32fjws/playlist.m3u8
 甘肃卫视,http://satellitepull.cnr.cn/live/wxgsws/playlist.m3u8
 贵州卫视,http://satellitepull.cnr.cn/live/wx32gzws/playlist.m3u8
@@ -62,13 +57,11 @@ CCTV-17,http://120.76.248.139/live/bfgd/4200000204.m3u8
 四川卫视,http://satellitepull.cnr.cn/live/wxscws/playlist.m3u8
 深圳卫视,http://satellitepull.cnr.cn/live/wxszws/playlist.m3u8
 三沙卫视,https://srs.ssws.tv/video/sstv-10/index.m3u8
-三沙卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=ssws
 三沙卫视,http://btjg.net:809/hls/142/index.m3u8
-三沙卫视,http://gfr.x3322.net:9901/tsfile/live/1025_1.m3u8
+三沙卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=ssws
 三沙卫视,rtsp://118.212.169.207:554/PLTV/88888888/224/3221227300/10000100000000060000000001945824_0.smil
+三沙卫视,rtsp://115.153.245.70/PLTV/88888888/224/3221226984/85722645.smil
 天津卫视,http://183.220.107.138:4022/rtp/239.11.0.123:5140
-天津卫视,http://btjg.net:809/hls/46/index.m3u8
-天津卫视,http://39.152.103.17:8089/tsfile/live/1035_1.m3u8
 天津卫视,http://yp.qqqtv.top/1/api.php?id=%E5%A4%A9%E6%B4%A5%E5%8D%AB%E8%A7%86&auth=666858
 西藏卫视,http://satellitepull.cnr.cn/live/wxxzws/playlist.m3u8
 新疆卫视,http://satellitepull.cnr.cn/live/wxxjws/playlist.m3u8
