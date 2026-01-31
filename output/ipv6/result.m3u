@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/x3yyy/TV/refs/heads/master/output/epg/epg.gz"
-#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="🕘️更新时间",2026-01-31 18:29:56
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="🕘️更新时间",2026-02-01 06:26:55
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk33
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="📺央视频道",CCTV-1
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk33
@@ -19,6 +19,8 @@ https://iptv.catvod.com/live.php?id=CCTV-10%20%E7%A7%91%E6%95%99
 https://www.freetv.top/migu/624878405.m3u8?migutoken=cdd677bf376d3c88ad570a045459ef0e4297b0711bb8efa426e16b4c0d069c853fdc539b08e8af8014b7362ec2443685fa9b75e5e55c425a2700ddd298bb7a0a104c8e034135b4f2456d0c26ca
 #EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV11.png" group-title="📺央视频道",CCTV-11
 https://iptv.catvod.com/live.php?id=CCTV11%E6%88%8F%E6%9B%B2
+#EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV11.png" group-title="📺央视频道",CCTV-11
+https://www.freetv.top/migu/667987558.m3u8?migutoken=408059f9700f7f56e62184e265e65547e81239e202e8eca9e4c8b6af6d24f1b95ecc82d9a995833141f0ac6d599ff24fc9f1a323a6beb60301088388f1601c0e7c72b52ba0a58472e525714823
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV13.png" group-title="📺央视频道",CCTV-13
 https://cdn3.163189.xyz/163189/cctv13
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV13.png" group-title="📺央视频道",CCTV-13
