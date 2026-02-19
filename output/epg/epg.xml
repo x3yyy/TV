@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<tv date="20260219104605 +0800">
+<tv date="20260219223611 +0800">
 	<channel id="CCTV-1">
 		<display-name lang="zh">CCTV-1</display-name>
 	</channel>
@@ -5511,292 +5511,295 @@
 	<channel id="西藏卫视">
 		<display-name lang="zh">西藏卫视</display-name>
 	</channel>
-	<programme channel="西藏卫视" start="20260219000000 +0800" stop="20260219001900 +0800">
+	<programme channel="西藏卫视" start="20260220000000 +0800" stop="20260220000600 +0800">
 		<title lang="zh">精彩呈现</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219001900 +0800" stop="20260219011200 +0800">
-		<title lang="zh">跨过鸭绿江(2)</title>
+	<programme channel="西藏卫视" start="20260220000600 +0800" stop="20260220005900 +0800">
+		<title lang="zh">跨过鸭绿江(4)</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219011200 +0800" stop="20260219015000 +0800">
+	<programme channel="西藏卫视" start="20260220005900 +0800" stop="20260220013600 +0800">
 		<title lang="zh">美丽西藏</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219015000 +0800" stop="20260219023600 +0800">
-		<title lang="zh">黄雀(15)</title>
+	<programme channel="西藏卫视" start="20260220013600 +0800" stop="20260220022500 +0800">
+		<title lang="zh">黄雀(17)</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219023600 +0800" stop="20260219032100 +0800">
-		<title lang="zh">黄雀(16)</title>
+	<programme channel="西藏卫视" start="20260220022500 +0800" stop="20260220031000 +0800">
+		<title lang="zh">黄雀(18)</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219032100 +0800" stop="20260219035800 +0800">
+	<programme channel="西藏卫视" start="20260220031000 +0800" stop="20260220034300 +0800">
 		<title lang="zh">西藏新闻联播</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219035800 +0800" stop="20260219044400 +0800">
-		<title lang="zh">前途无量(26)</title>
+	<programme channel="西藏卫视" start="20260220034300 +0800" stop="20260220043400 +0800">
+		<title lang="zh">梦中的那片海(2)</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219044400 +0800" stop="20260219053100 +0800">
-		<title lang="zh">梦中的那片海(1)</title>
+	<programme channel="西藏卫视" start="20260220043400 +0800" stop="20260220052500 +0800">
+		<title lang="zh">梦中的那片海(3)</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219053100 +0800" stop="20260219060400 +0800">
+	<programme channel="西藏卫视" start="20260220052500 +0800" stop="20260220053900 +0800">
+		<title lang="zh">读行西藏</title>
+	</programme>
+	<programme channel="西藏卫视" start="20260220053900 +0800" stop="20260220061300 +0800">
 		<title lang="zh">美丽西藏</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219060400 +0800" stop="20260219061600 +0800">
-		<title lang="zh">跟我学藏语</title>
+	<programme channel="西藏卫视" start="20260220061300 +0800" stop="20260220070000 +0800">
+		<title lang="zh">战将(11)</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219061600 +0800" stop="20260219070000 +0800">
-		<title lang="zh">战将(9)</title>
-	</programme>
-	<programme channel="西藏卫视" start="20260219070000 +0800" stop="20260219070100 +0800">
+	<programme channel="西藏卫视" start="20260220070000 +0800" stop="20260220070200 +0800">
 		<title lang="zh">中华人民共和国国歌</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219070100 +0800" stop="20260219074600 +0800">
-		<title lang="zh">战将(10)</title>
+	<programme channel="西藏卫视" start="20260220070200 +0800" stop="20260220074600 +0800">
+		<title lang="zh">战将(12)</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219074600 +0800" stop="20260219081700 +0800">
+	<programme channel="西藏卫视" start="20260220074600 +0800" stop="20260220081600 +0800">
 		<title lang="zh">动画乐园</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219081700 +0800" stop="20260219083000 +0800">
+	<programme channel="西藏卫视" start="20260220081600 +0800" stop="20260220083000 +0800">
 		<title lang="zh">跟我学藏语</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219083000 +0800" stop="20260219090300 +0800">
+	<programme channel="西藏卫视" start="20260220083000 +0800" stop="20260220090000 +0800">
 		<title lang="zh">西藏新闻联播</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219090300 +0800" stop="20260219100300 +0800">
+	<programme channel="西藏卫视" start="20260220090000 +0800" stop="20260220100000 +0800">
 		<title lang="zh">2026藏历新年联欢晚会</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219100300 +0800" stop="20260219110300 +0800">
+	<programme channel="西藏卫视" start="20260220100000 +0800" stop="20260220110000 +0800">
 		<title lang="zh">2026藏历新年联欢晚会</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219110300 +0800" stop="20260219120300 +0800">
+	<programme channel="西藏卫视" start="20260220110000 +0800" stop="20260220120000 +0800">
 		<title lang="zh">2026藏历新年联欢晚会</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219120300 +0800" stop="20260219124900 +0800">
+	<programme channel="西藏卫视" start="20260220120000 +0800" stop="20260220124500 +0800">
 		<title lang="zh">2026藏历新年联欢晚会</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219124900 +0800" stop="20260219130000 +0800">
-		<title lang="zh">跟我学藏语</title>
+	<programme channel="西藏卫视" start="20260220124500 +0800" stop="20260220130000 +0800">
+		<title lang="zh">读行西藏</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219130000 +0800" stop="20260219131800 +0800">
+	<programme channel="西藏卫视" start="20260220130000 +0800" stop="20260220131700 +0800">
 		<title lang="zh">午间新闻</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219131800 +0800" stop="20260219140500 +0800">
-		<title lang="zh">无间(40)</title>
+	<programme channel="西藏卫视" start="20260220131700 +0800" stop="20260220140900 +0800">
+		<title lang="zh">共同家园(5)</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219140500 +0800" stop="20260219153800 +0800">
-		<title lang="zh">欢笑2026</title>
+	<programme channel="西藏卫视" start="20260220140900 +0800" stop="20260220150000 +0800">
+		<title lang="zh">共同家园(6)</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219153800 +0800" stop="20260219162500 +0800">
-		<title lang="zh">上甘岭(1)</title>
+	<programme channel="西藏卫视" start="20260220150000 +0800" stop="20260220152000 +0800">
+		<title lang="zh">午间新闻</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219162500 +0800" stop="20260219171100 +0800">
-		<title lang="zh">上甘岭(2)</title>
+	<programme channel="西藏卫视" start="20260220152000 +0800" stop="20260220160600 +0800">
+		<title lang="zh">上甘岭(4)</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219171100 +0800" stop="20260219175700 +0800">
-		<title lang="zh">上甘岭(3)</title>
+	<programme channel="西藏卫视" start="20260220160600 +0800" stop="20260220165200 +0800">
+		<title lang="zh">上甘岭(5)</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219175700 +0800" stop="20260219182800 +0800">
-		<title lang="zh">美丽西藏</title>
+	<programme channel="西藏卫视" start="20260220165200 +0800" stop="20260220173900 +0800">
+		<title lang="zh">上甘岭(6)</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219182800 +0800" stop="20260219190000 +0800">
+	<programme channel="西藏卫视" start="20260220173900 +0800" stop="20260220182600 +0800">
+		<title lang="zh">上甘岭(7)</title>
+	</programme>
+	<programme channel="西藏卫视" start="20260220182600 +0800" stop="20260220190000 +0800">
 		<title lang="zh">动画乐园</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219190000 +0800" stop="20260219193000 +0800">
+	<programme channel="西藏卫视" start="20260220190000 +0800" stop="20260220193000 +0800">
 		<title lang="zh">转播中央台新闻联播</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219193000 +0800" stop="20260219200400 +0800">
+	<programme channel="西藏卫视" start="20260220193000 +0800" stop="20260220200300 +0800">
 		<title lang="zh">西藏新闻联播</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219200400 +0800" stop="20260219201200 +0800">
+	<programme channel="西藏卫视" start="20260220200300 +0800" stop="20260220201100 +0800">
 		<title lang="zh">天气预报</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219201200 +0800" stop="20260219214400 +0800">
+	<programme channel="西藏卫视" start="20260220201100 +0800" stop="20260220214400 +0800">
 		<title lang="zh">地市2026藏历新年晚会</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219214400 +0800" stop="20260219223000 +0800">
-		<title lang="zh">日光之城(3)</title>
+	<programme channel="西藏卫视" start="20260220214400 +0800" stop="20260220223000 +0800">
+		<title lang="zh">日光之城(4)</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219223000 +0800" stop="20260219230600 +0800">
+	<programme channel="西藏卫视" start="20260220223000 +0800" stop="20260220230200 +0800">
 		<title lang="zh">西藏新闻联播</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219230600 +0800" stop="20260219231800 +0800">
+	<programme channel="西藏卫视" start="20260220230200 +0800" stop="20260220231400 +0800">
 		<title lang="zh">跟我学藏语</title>
 	</programme>
-	<programme channel="西藏卫视" start="20260219231800 +0800" stop="20260219235959 +0800">
-		<title lang="zh">跨过鸭绿江(3)</title>
+	<programme channel="西藏卫视" start="20260220231400 +0800" stop="20260220235959 +0800">
+		<title lang="zh">跨过鸭绿江(5)</title>
 	</programme>
 	<channel id="香港卫视">
 		<display-name lang="zh">香港卫视</display-name>
 	</channel>
-	<programme channel="香港卫视" start="20260219000000 +0800" stop="20260219001000 +0800">
+	<programme channel="香港卫视" start="20260220000000 +0800" stop="20260220001000 +0800">
 		<title lang="zh">精彩呈现</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219001000 +0800" stop="20260219004000 +0800">
+	<programme channel="香港卫视" start="20260220001000 +0800" stop="20260220004000 +0800">
 		<title lang="zh">映像波特兰</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219004000 +0800" stop="20260219011000 +0800">
+	<programme channel="香港卫视" start="20260220004000 +0800" stop="20260220011000 +0800">
 		<title lang="zh">时尚汇</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219011000 +0800" stop="20260219014000 +0800">
-		<title lang="zh">独爱东南</title>
+	<programme channel="香港卫视" start="20260220011000 +0800" stop="20260220014000 +0800">
+		<title lang="zh">高朋满座</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219014000 +0800" stop="20260219021000 +0800">
+	<programme channel="香港卫视" start="20260220014000 +0800" stop="20260220021000 +0800">
 		<title lang="zh">香港精神</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219021000 +0800" stop="20260219024000 +0800">
+	<programme channel="香港卫视" start="20260220021000 +0800" stop="20260220024000 +0800">
 		<title lang="zh">香港故事</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219024000 +0800" stop="20260219030000 +0800">
+	<programme channel="香港卫视" start="20260220024000 +0800" stop="20260220030000 +0800">
 		<title lang="zh">港视大直播</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219030000 +0800" stop="20260219031400 +0800">
+	<programme channel="香港卫视" start="20260220030000 +0800" stop="20260220031400 +0800">
 		<title lang="zh">印象重庆</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219031400 +0800" stop="20260219034500 +0800">
-		<title lang="zh">东边西边</title>
+	<programme channel="香港卫视" start="20260220031400 +0800" stop="20260220034500 +0800">
+		<title lang="zh">映像波特兰</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219034500 +0800" stop="20260219041200 +0800">
+	<programme channel="香港卫视" start="20260220034500 +0800" stop="20260220041200 +0800">
 		<title lang="zh">守心人</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219041200 +0800" stop="20260219043000 +0800">
+	<programme channel="香港卫视" start="20260220041200 +0800" stop="20260220043000 +0800">
 		<title lang="zh">那点财经事</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219043000 +0800" stop="20260219050000 +0800">
+	<programme channel="香港卫视" start="20260220043000 +0800" stop="20260220050000 +0800">
 		<title lang="zh">香港故事</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219050000 +0800" stop="20260219052500 +0800">
+	<programme channel="香港卫视" start="20260220050000 +0800" stop="20260220052500 +0800">
 		<title lang="zh">香江唱皖</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219052500 +0800" stop="20260219055500 +0800">
-		<title lang="zh">高朋座</title>
+	<programme channel="香港卫视" start="20260220052500 +0800" stop="20260220055500 +0800">
+		<title lang="zh">健康加油站</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219055500 +0800" stop="20260219062500 +0800">
-		<title lang="zh">文化超声</title>
+	<programme channel="香港卫视" start="20260220055500 +0800" stop="20260220062500 +0800">
+		<title lang="zh">独爱东南</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219062500 +0800" stop="20260219065500 +0800">
+	<programme channel="香港卫视" start="20260220062500 +0800" stop="20260220065500 +0800">
 		<title lang="zh">东边西边</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219065500 +0800" stop="20260219071000 +0800">
+	<programme channel="香港卫视" start="20260220065500 +0800" stop="20260220071500 +0800">
 		<title lang="zh">港视大直播</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219071000 +0800" stop="20260219072000 +0800">
-		<title lang="zh">早安中国</title>
-	</programme>
-	<programme channel="香港卫视" start="20260219072000 +0800" stop="20260219073300 +0800">
+	<programme channel="香港卫视" start="20260220071500 +0800" stop="20260220072700 +0800">
 		<title lang="zh">印象重庆</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219073300 +0800" stop="20260219080000 +0800">
-		<title lang="zh">时尚汇</title>
-	</programme>
-	<programme channel="香港卫视" start="20260219080000 +0800" stop="20260219080600 +0800">
+	<programme channel="香港卫视" start="20260220072700 +0800" stop="20260220073300 +0800">
 		<title lang="zh">早安中国</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219080600 +0800" stop="20260219083200 +0800">
+	<programme channel="香港卫视" start="20260220073300 +0800" stop="20260220080000 +0800">
+		<title lang="zh">时尚汇</title>
+	</programme>
+	<programme channel="香港卫视" start="20260220080000 +0800" stop="20260220080700 +0800">
+		<title lang="zh">早安中国</title>
+	</programme>
+	<programme channel="香港卫视" start="20260220080700 +0800" stop="20260220083300 +0800">
+		<title lang="zh">独爱东南</title>
+	</programme>
+	<programme channel="香港卫视" start="20260220083300 +0800" stop="20260220090000 +0800">
 		<title lang="zh">守心人</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219083200 +0800" stop="20260219090000 +0800">
+	<programme channel="香港卫视" start="20260220090000 +0800" stop="20260220090700 +0800">
+		<title lang="zh">早安中国</title>
+	</programme>
+	<programme channel="香港卫视" start="20260220090700 +0800" stop="20260220093700 +0800">
 		<title lang="zh">健康加油站</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219090000 +0800" stop="20260219090700 +0800">
-		<title lang="zh">早安中国</title>
-	</programme>
-	<programme channel="香港卫视" start="20260219090700 +0800" stop="20260219093000 +0800">
+	<programme channel="香港卫视" start="20260220093700 +0800" stop="20260220095800 +0800">
 		<title lang="zh">香江唱皖</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219093000 +0800" stop="20260219095800 +0800">
-		<title lang="zh">香港故事</title>
-	</programme>
-	<programme channel="香港卫视" start="20260219095800 +0800" stop="20260219100500 +0800">
+	<programme channel="香港卫视" start="20260220095800 +0800" stop="20260220100500 +0800">
 		<title lang="zh">早安中国</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219100500 +0800" stop="20260219103500 +0800">
+	<programme channel="香港卫视" start="20260220100500 +0800" stop="20260220103400 +0800">
 		<title lang="zh">东边西边</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219103500 +0800" stop="20260219110500 +0800">
-		<title lang="zh">独爱东南</title>
+	<programme channel="香港卫视" start="20260220103400 +0800" stop="20260220110500 +0800">
+		<title lang="zh">高朋满座</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219110500 +0800" stop="20260219115500 +0800">
+	<programme channel="香港卫视" start="20260220110500 +0800" stop="20260220115500 +0800">
 		<title lang="zh">电视剧</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219115500 +0800" stop="20260219122400 +0800">
+	<programme channel="香港卫视" start="20260220115500 +0800" stop="20260220122400 +0800">
 		<title lang="zh">映像波特兰</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219122400 +0800" stop="20260219123000 +0800">
+	<programme channel="香港卫视" start="20260220122400 +0800" stop="20260220123000 +0800">
 		<title lang="zh">三奇企业宣传片</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219123000 +0800" stop="20260219124700 +0800">
+	<programme channel="香港卫视" start="20260220123000 +0800" stop="20260220124700 +0800">
 		<title lang="zh">港视午新闻</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219124700 +0800" stop="20260219131500 +0800">
+	<programme channel="香港卫视" start="20260220124700 +0800" stop="20260220131300 +0800">
 		<title lang="zh">时尚汇</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219131500 +0800" stop="20260219134500 +0800">
-		<title lang="zh">文化超声</title>
+	<programme channel="香港卫视" start="20260220131300 +0800" stop="20260220134200 +0800">
+		<title lang="zh">香港精神</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219134500 +0800" stop="20260219141000 +0800">
-		<title lang="zh">香江唱皖</title>
-	</programme>
-	<programme channel="香港卫视" start="20260219141000 +0800" stop="20260219142500 +0800">
-		<title lang="zh">印象重庆</title>
-	</programme>
-	<programme channel="香港卫视" start="20260219142500 +0800" stop="20260219144500 +0800">
-		<title lang="zh">港视午新闻</title>
-	</programme>
-	<programme channel="香港卫视" start="20260219144500 +0800" stop="20260219151500 +0800">
-		<title lang="zh">东边西边</title>
-	</programme>
-	<programme channel="香港卫视" start="20260219151500 +0800" stop="20260219160500 +0800">
-		<title lang="zh">电视剧</title>
-	</programme>
-	<programme channel="香港卫视" start="20260219160500 +0800" stop="20260219163500 +0800">
-		<title lang="zh">独爱东南</title>
-	</programme>
-	<programme channel="香港卫视" start="20260219163500 +0800" stop="20260219170500 +0800">
-		<title lang="zh">高朋座</title>
-	</programme>
-	<programme channel="香港卫视" start="20260219170500 +0800" stop="20260219172000 +0800">
-		<title lang="zh">印象重庆</title>
-	</programme>
-	<programme channel="香港卫视" start="20260219172000 +0800" stop="20260219175000 +0800">
-		<title lang="zh">健康加油站</title>
-	</programme>
-	<programme channel="香港卫视" start="20260219175000 +0800" stop="20260219181100 +0800">
-		<title lang="zh">香江唱皖</title>
-	</programme>
-	<programme channel="香港卫视" start="20260219181100 +0800" stop="20260219183700 +0800">
-		<title lang="zh">独爱东南</title>
-	</programme>
-	<programme channel="香港卫视" start="20260219183700 +0800" stop="20260219190000 +0800">
-		<title lang="zh">动画天地</title>
-	</programme>
-	<programme channel="香港卫视" start="20260219190000 +0800" stop="20260219192000 +0800">
-		<title lang="zh">港视大直播</title>
-	</programme>
-	<programme channel="香港卫视" start="20260219192000 +0800" stop="20260219193500 +0800">
-		<title lang="zh">印象重庆</title>
-	</programme>
-	<programme channel="香港卫视" start="20260219193500 +0800" stop="20260219195700 +0800">
-		<title lang="zh">香江唱皖</title>
-	</programme>
-	<programme channel="香港卫视" start="20260219195700 +0800" stop="20260219203000 +0800">
-		<title lang="zh">讲述者</title>
-	</programme>
-	<programme channel="香港卫视" start="20260219203000 +0800" stop="20260219210000 +0800">
-		<title lang="zh">东边西边</title>
-	</programme>
-	<programme channel="香港卫视" start="20260219210000 +0800" stop="20260219213000 +0800">
-		<title lang="zh">映像波特兰</title>
-	</programme>
-	<programme channel="香港卫视" start="20260219213000 +0800" stop="20260219220000 +0800">
+	<programme channel="香港卫视" start="20260220134200 +0800" stop="20260220141200 +0800">
 		<title lang="zh">香港故事</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219220000 +0800" stop="20260219225000 +0800">
-		<title lang="zh">电视剧</title>
+	<programme channel="香港卫视" start="20260220141200 +0800" stop="20260220142500 +0800">
+		<title lang="zh">印象重庆</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219225000 +0800" stop="20260219232000 +0800">
-		<title lang="zh">独爱东南</title>
+	<programme channel="香港卫视" start="20260220142500 +0800" stop="20260220144500 +0800">
+		<title lang="zh">午新闻</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219232000 +0800" stop="20260219235000 +0800">
+	<programme channel="香港卫视" start="20260220144500 +0800" stop="20260220151500 +0800">
 		<title lang="zh">东边西边</title>
 	</programme>
-	<programme channel="香港卫视" start="20260219235000 +0800" stop="20260219235900 +0800">
+	<programme channel="香港卫视" start="20260220151500 +0800" stop="20260220160500 +0800">
+		<title lang="zh">电视剧</title>
+	</programme>
+	<programme channel="香港卫视" start="20260220160500 +0800" stop="20260220163700 +0800">
+		<title lang="zh">健康加油站</title>
+	</programme>
+	<programme channel="香港卫视" start="20260220163700 +0800" stop="20260220171000 +0800">
+		<title lang="zh">高朋满座</title>
+	</programme>
+	<programme channel="香港卫视" start="20260220171000 +0800" stop="20260220173100 +0800">
+		<title lang="zh">香江唱皖</title>
+	</programme>
+	<programme channel="香港卫视" start="20260220173100 +0800" stop="20260220180000 +0800">
+		<title lang="zh">香港故事</title>
+	</programme>
+	<programme channel="香港卫视" start="20260220180000 +0800" stop="20260220182000 +0800">
+		<title lang="zh">香江唱皖</title>
+	</programme>
+	<programme channel="香港卫视" start="20260220182000 +0800" stop="20260220184300 +0800">
+		<title lang="zh">动画天地</title>
+	</programme>
+	<programme channel="香港卫视" start="20260220184300 +0800" stop="20260220190000 +0800">
+		<title lang="zh">财富解码</title>
+	</programme>
+	<programme channel="香港卫视" start="20260220190000 +0800" stop="20260220191700 +0800">
+		<title lang="zh">港视大直播</title>
+	</programme>
+	<programme channel="香港卫视" start="20260220191700 +0800" stop="20260220193700 +0800">
+		<title lang="zh">亚洲青年说</title>
+	</programme>
+	<programme channel="香港卫视" start="20260220193700 +0800" stop="20260220200500 +0800">
+		<title lang="zh">守心人</title>
+	</programme>
+	<programme channel="香港卫视" start="20260220200500 +0800" stop="20260220203500 +0800">
+		<title lang="zh">香港精神</title>
+	</programme>
+	<programme channel="香港卫视" start="20260220203500 +0800" stop="20260220210500 +0800">
+		<title lang="zh">东边西边</title>
+	</programme>
+	<programme channel="香港卫视" start="20260220210500 +0800" stop="20260220213100 +0800">
+		<title lang="zh">独爱东南</title>
+	</programme>
+	<programme channel="香港卫视" start="20260220213100 +0800" stop="20260220220000 +0800">
+		<title lang="zh">中国品牌行</title>
+	</programme>
+	<programme channel="香港卫视" start="20260220220000 +0800" stop="20260220225000 +0800">
+		<title lang="zh">电视剧</title>
+	</programme>
+	<programme channel="香港卫视" start="20260220225000 +0800" stop="20260220232000 +0800">
+		<title lang="zh">香港故事</title>
+	</programme>
+	<programme channel="香港卫视" start="20260220232000 +0800" stop="20260220235000 +0800">
+		<title lang="zh">东边西边</title>
+	</programme>
+	<programme channel="香港卫视" start="20260220235000 +0800" stop="20260220235900 +0800">
 		<title lang="zh">港视大直播</title>
 	</programme>
 </tv>
