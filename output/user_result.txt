@@ -1,12 +1,12 @@
 🕘️更新时间,#genre#
-2026-03-09 18:50:38,https://iptv.catvod.com/live.php?id=CCTV1&line=14
+2026-03-10 06:32:47,https://iptv.catvod.com/live.php?id=CCTV1&line=14
 
 📺央视频道,#genre#
 CCTV-1,https://iptv.catvod.com/live.php?id=CCTV1&line=14
 CCTV-1,http://38.75.136.137:98/gslb/dsdqbv/cctv1hd.m3u8?auth=test20251009
+CCTV-2,http://38.75.136.137:98/gslb/dsdqbv/cctv2hd.m3u8?auth=test20251009
 CCTV-2,https://iptv.catvod.com/live.php?id=CCTV2&line=13
 CCTV-2,https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8
-CCTV-2,http://38.75.136.137:98/gslb/dsdqbv/cctv2hd.m3u8?auth=test20251009
 CCTV-3,http://38.75.136.137:98/gslb/dsdqbv/cctv3hd.m3u8?auth=test20251009
 CCTV-4,http://38.75.136.137:98/gslb/dsdqbv/cctv4hd.m3u8?auth=test20251009
 CCTV-4,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
@@ -35,7 +35,6 @@ CCTV-15,https://iptv.catvod.com/live.php?id=CCTV15&line=3
 CCTV-16,https://iptv.catvod.com/live.php?id=CCTV16&line=3
 CCTV-16,http://38.75.136.137:98/gslb/dsdqbv/cctv16hd.m3u8?auth=test20251009
 CCTV-16,http://drive.mxmy.net:8888/udp/239.3.1.184:8001
-CCTV-17,http://pull-hls-f11.douyincdn.com/media/stream-407213179642053292.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1773619479&major_anchor_level=common&sign=bc2d4a3036fd27024f2c218c2fea7c91&t_id=037-202603090804382D2980E60B5163A589BB-tclVJX
 CCTV-17,http://38.75.136.137:98/gslb/dsdqbv/cctv17hd.m3u8?auth=test20251009
 CCTV-17,http://drive.mxmy.net:8888/udp/239.3.1.151:8144
 
@@ -91,6 +90,7 @@ CCTV-17,http://drive.mxmy.net:8888/udp/239.3.1.151:8144
 陕西卫视,https://iptv.catvod.com/live.php?id=%E9%99%95%E8%A5%BF%E5%8D%AB%E8%A7%86&line=3
 四川卫视,https://iptv.catvod.com/live.php?id=%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%86&line=3
 四川卫视,http://satellitepull.cnr.cn/live/wxscws/playlist.m3u8
+四川卫视,http://123.130.84.106:8154/tsfile/live/0123_1.m3u8
 深圳卫视,https://iptv.catvod.com/live.php?id=%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86&line=2
 深圳卫视,http://satellitepull.cnr.cn/live/wxszws/playlist.m3u8
 三沙卫视,https://iptv.catvod.com/live.php?id=%E4%B8%89%E6%B2%99%E5%8D%AB%E8%A7%86&line=2
@@ -98,12 +98,14 @@ CCTV-17,http://drive.mxmy.net:8888/udp/239.3.1.151:8144
 西藏卫视,http://satellitepull.cnr.cn/live/wxxzws/playlist.m3u8
 新疆卫视,https://iptv.catvod.com/live.php?id=%E6%96%B0%E7%96%86%E5%8D%AB%E8%A7%86&line=3
 新疆卫视,http://satellitepull.cnr.cn/live/wxxjws/playlist.m3u8
-云南卫视,http://38.75.136.137:98/gslb/dsdqpub/ynwshd.m3u8?auth=testpub
 云南卫视,https://iptv.catvod.com/live.php?id=%E4%BA%91%E5%8D%97%E5%8D%AB%E8%A7%86&line=3
+云南卫视,http://38.75.136.137:98/gslb/dsdqpub/ynwshd.m3u8?auth=testpub
 
 ☘️安徽频道,#genre#
-安徽国际,http://hsza.f3322.net:4000/rtp/238.1.78.61:6360
 安徽国际,http://vapi.91kds.cc/live2/ahtv2.m3u8?id=ahgj&apiKey=2079b631b519ec17da0bc09844eb8419
+安徽影视,http://112.132.10.54:9901/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
 安徽影视,http://hsza.f3322.net:4000/rtp/238.1.79.42:4448
+安徽影视,http://112.27.235.94:8000/hls/24/index.m3u8
+安徽影视,http://vapi.91kds.cc/live2/ahtv2.m3u8?id=ahys&apiKey=2079b631b519ec17da0bc09844eb8419
 安徽综艺体育,http://112.27.235.94:8000/hls/25/index.m3u8
 安徽导视,http://dspdhls.appcoo.com:8888/live/dspd/index.m3u8
