@@ -1,9 +1,9 @@
 🕘️更新时间,#genre#
-2026-03-15 18:33:26,https://iptv.catvod.com/live.php?id=CCTV1&line=14
+2026-03-16 06:31:33,http://38.75.136.137:98/gslb/dsdqbv/cctv1hd.m3u8?auth=test20251009
 
 📺央视频道,#genre#
-CCTV-1,https://iptv.catvod.com/live.php?id=CCTV1&line=14
 CCTV-1,http://38.75.136.137:98/gslb/dsdqbv/cctv1hd.m3u8?auth=test20251009
+CCTV-1,https://iptv.catvod.com/live.php?id=CCTV1&line=14
 CCTV-1,http://107.150.60.122/live/cctv1hd.m3u8
 CCTV-2,https://iptv.catvod.com/live.php?id=CCTV2&line=13
 CCTV-2,http://38.75.136.137:98/gslb/dsdqbv/cctv2hd.m3u8?auth=test20251009
@@ -11,42 +11,41 @@ CCTV-3,http://38.75.136.137:98/gslb/dsdqbv/cctv3hd.m3u8?auth=test20251009
 CCTV-4,https://iptv.catvod.com/live.php?id=CCTV4&line=12
 CCTV-4,http://38.75.136.137:98/gslb/dsdqbv/cctv4hd.m3u8?auth=test20251009
 CCTV-4,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
-CCTV-5,https://iptv.catvod.com/live.php?id=CCTV5&line=11
 CCTV-5,http://38.75.136.137:98/gslb/dsdqbv/cctv5hd.m3u8?auth=test20251009
+CCTV-5,https://iptv.catvod.com/live.php?id=CCTV5&line=11
 CCTV-5,http://107.150.60.122/live/cctv5hd.m3u8
 CCTV-5+,http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009
 CCTV-5+,http://107.150.60.122/live/cctv5p.m3u8
+CCTV-6,http://107.150.60.122/live/cctv6hd.m3u8
 CCTV-6,https://iptv.catvod.com/live.php?id=CCTV6&line=11
 CCTV-6,http://38.75.136.137:98/gslb/dsdqbv/cctv6hd.m3u8?auth=test20251009
-CCTV-6,http://107.150.60.122/live/cctv6hd.m3u8
-CCTV-7,https://iptv.catvod.com/live.php?id=CCTV7&line=10
 CCTV-7,http://38.75.136.137:98/gslb/dsdqbv/cctv7hd.m3u8?auth=test20251009
-CCTV-8,https://iptv.catvod.com/live.php?id=CCTV8&line=10
+CCTV-7,https://iptv.catvod.com/live.php?id=CCTV7&line=10
 CCTV-8,http://38.75.136.137:98/gslb/dsdqbv/cctv8hd.m3u8?auth=test20251009
+CCTV-8,https://iptv.catvod.com/live.php?id=CCTV8&line=10
 CCTV-8,http://107.150.60.122/live/cctv8hd.m3u8
-CCTV-9,https://iptv.catvod.com/live.php?id=CCTV9&line=3
 CCTV-9,http://38.75.136.137:98/gslb/dsdqbv/cctv9hd.m3u8?auth=test20251009
+CCTV-9,https://iptv.catvod.com/live.php?id=CCTV9&line=3
 CCTV-9,http://107.150.60.122/live/cctv9hd.m3u8
 CCTV-10,https://iptv.catvod.com/live.php?id=CCTV-10%20%E7%A7%91%E6%95%99
+CCTV-11,http://107.150.60.122/live/cctv11hd.m3u8
 CCTV-11,https://iptv.catvod.com/live.php?id=CCTV11&line=7
 CCTV-11,http://xtvantsc.xyz/Smart.php?id=cctv11
-CCTV-11,http://107.150.60.122/live/cctv11hd.m3u8
 CCTV-12,https://iptv.catvod.com/live.php?id=CCTV12%E7%A4%BE%E4%BC%9A%E4%B8%8E%E6%B3%95
-CCTV-12,http://23.237.228.134/live3/CCTV12.m3u8
 CCTV-12,http://107.150.60.122/live/cctv12hd.m3u8
+CCTV-12,http://23.237.228.134/live3/CCTV12.m3u8
 CCTV-12,http://183.220.107.138:4022/rtp/239.11.0.113:5140
 CCTV-13,https://cdn3.163189.xyz/163189/cctv13
-CCTV-13,http://pull-hls-f11.douyincdn.com/media/stream-695440843385864876.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1773804633&major_anchor_level=common&sign=2109708d3a2da5de3a916933ce117b28&t_id=037-20260311113033D59DBA10999672734FAF-UWe230
 CCTV-13,https://event.pull.hebtv.com/jishi/cp1.m3u8
+CCTV-13,http://pull-hls-f11.douyincdn.com/media/stream-695440843385864876.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1773804633&major_anchor_level=common&sign=2109708d3a2da5de3a916933ce117b28&t_id=037-20260311113033D59DBA10999672734FAF-UWe230
 CCTV-13,https://iptv.catvod.com/live.php?id=CCTV13&line=12
 CCTV-13,http://107.150.60.122/live/cctv13hd.m3u8
 CCTV-14,https://iptv.catvod.com/live.php?id=CCTV14%E5%B0%91%E5%84%BF
-CCTV-14,http://74.91.26.218:82/live/cctv14hd.m3u8
-CCTV-15,https://iptv.catvod.com/live.php?id=CCTV15&line=8
 CCTV-15,http://107.150.60.122/live/cctv15hd.m3u8
-CCTV-16,https://iptv.catvod.com/live.php?id=CCTV16&line=3
-CCTV-16,http://107.150.60.122/live/cctv16hd.m3u8
+CCTV-15,https://iptv.catvod.com/live.php?id=CCTV15&line=8
 CCTV-16,http://38.75.136.137:98/gslb/dsdqbv/cctv16hd.m3u8?auth=test20251009
+CCTV-16,http://107.150.60.122/live/cctv16hd.m3u8
+CCTV-16,https://iptv.catvod.com/live.php?id=CCTV16&line=3
 CCTV-17,http://38.75.136.137:98/gslb/dsdqbv/cctv17hd.m3u8?auth=test20251009
 CCTV-17,http://drive.mxmy.net:8888/udp/239.3.1.151:8144
 
@@ -59,8 +58,8 @@ CCTV-17,http://drive.mxmy.net:8888/udp/239.3.1.151:8144
 香港卫视,rtmp://zhibo.hkstv.tv/livestream/mutfysrq
 浙江卫视,https://iptv.catvod.com/live.php?id=%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86&line=2
 浙江卫视,http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8#mitv://generationnexxxt.com:19806/7bf4b3a65eaf421ab6d71bd8dcc4547a
-湖南卫视,https://iptv.catvod.com/live.php?id=%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86&line=3
 湖南卫视,http://38.75.136.137:98/gslb/dsdqbv/hnwshd.m3u8?auth=test20251009
+湖南卫视,https://iptv.catvod.com/live.php?id=%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86&line=3
 湖南卫视,http://107.150.60.122/live/hnwshd.m3u8
 湖南卫视,http://satellitepull.cnr.cn/live/wx32hunws/playlist.m3u8
 湖南卫视,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
@@ -124,6 +123,10 @@ CCTV-17,http://drive.mxmy.net:8888/udp/239.3.1.151:8144
 
 ☘️安徽频道,#genre#
 安徽国际,http://hsza.f3322.net:4000/rtp/238.1.78.61:6360
+安徽国际,http://vapi.91kds.cc/live2/ahtv2.m3u8?id=ahgj&apiKey=2079b631b519ec17da0bc09844eb8419
+安徽影视,http://112.132.10.54:9901/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
+安徽影视,http://112.27.235.94:8000/hls/24/index.m3u8
 安徽影视,http://hsza.f3322.net:4000/rtp/238.1.79.42:4448
+安徽影视,http://vapi.91kds.cc/live2/ahtv2.m3u8?id=ahys&apiKey=2079b631b519ec17da0bc09844eb8419
 安徽综艺体育,http://112.27.235.94:8000/hls/25/index.m3u8
 安徽导视,http://dspdhls.appcoo.com:8888/live/dspd/index.m3u8
